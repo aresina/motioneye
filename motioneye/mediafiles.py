@@ -104,61 +104,30 @@ _timelapse_data = None
 _ffmpeg_binary_cache = None
 
 
-def findfiles(path: str, exts: typing.List[str]) -> typing.List[tuple]:
-    files = []
-    for entry in os.scandir(path):
+def _list_media_files(
+    base_path: str, exts: typing.List[str], sub_path: str = None
+) -> typing.List[tuple]:
+    # Determine scan path based on sub_path parameter
+    if sub_path is not None:
+        if sub_path == 'ungrouped':
+            sub_path = ''
+
+        scan_path = os.path.join(base_path, sub_path)
+        if not os.path.exists(scan_path):
+            return []
+    else:
+        scan_path = base_path
+
+    media_files = []
+    for entry in os.scandir(scan_path):
         # ignore hidden files/dirs and other unwanted files
         if entry.name.startswith('.') or entry.name == 'lastsnap.jpg':
             continue
 
-        # recurse into subdirectories
-        if entry.is_dir(follow_symlinks=False):
-            files.extend(findfiles(entry.path, exts))
-            continue
-
-        # skip non-files
-        if not entry.is_file(follow_symlinks=False):
-            continue
-
-        # filter by extension before calling stat
-        if not [e for e in exts if entry.path.lower().endswith(e)]:
-            continue
-
-        # stat call may fail due to race conditions or permission issues
-        try:
-            st = entry.stat(follow_symlinks=False)
-        except Exception as e:
-            logging.error(f'stat failed: {e}')
-            continue
-
-        files.append((entry.path, st))
-
-    return files
-
-
-def _list_media_files(
-    directory: str, exts: typing.List[str], prefix: str = None
-) -> typing.List[tuple]:
-    if prefix is not None:
-        if prefix == 'ungrouped':
-            prefix = ''
-
-        root = os.path.join(directory, prefix)
-        if not os.path.exists(root):
-            return []
-
-        media_files = []
-        for entry in os.scandir(root):
-            # ignore hidden files/dirs and other unwanted files
-            if entry.name.startswith('.') or entry.name == 'lastsnap.jpg':
-                continue
-
-            # skip non-files
-            if not entry.is_file(follow_symlinks=False):
-                continue
-
+        # check if it's a file first (most common case)
+        if entry.is_file(follow_symlinks=False):
             # filter by extension before calling stat
-            if not [e for e in exts if entry.path.lower().endswith(e)]:
+            if not any(entry.path.lower().endswith(e) for e in exts):
                 continue
 
             # stat call may fail due to race conditions or permission issues
@@ -170,11 +139,11 @@ def _list_media_files(
 
             media_files.append((entry.path, st))
 
-        return media_files
+        # recurse into subdirectories only when no sub_path filter is set
+        elif sub_path is None and entry.is_dir(follow_symlinks=False):
+            media_files.extend(_list_media_files(entry.path, exts))
 
-    else:
-        # If no prefix, recurse into subdirectories
-        return findfiles(directory, exts)
+    return media_files
 
 
 def _remove_older_files(
@@ -439,7 +408,7 @@ def list_media(camera_config: dict, media_type: str, prefix=None) -> typing.Awai
 
         parent_pipe.close()
 
-        mf = _list_media_files(target_dir, exts=exts, prefix=prefix)
+        mf = _list_media_files(target_dir, exts, sub_path=prefix)
         for p, st in mf:
             path = p[len(target_dir) :]
             if not path.startswith('/'):
@@ -559,7 +528,7 @@ def get_zipped_content(
     def do_zip(pipe):
         parent_pipe.close()
 
-        mf = _list_media_files(target_dir, exts=exts, prefix=group)
+        mf = _list_media_files(target_dir, exts, sub_path=group)
         paths = []
         for p, st in mf:  # @UnusedVariable
             path = p[len(target_dir) :]
@@ -660,7 +629,7 @@ def make_timelapse_movie(camera_config, framerate, interval, group):
     def do_list_media(pipe):
         parent_pipe.close()
 
-        mf = _list_media_files(target_dir, exts=_PICTURE_EXTS, prefix=group)
+        mf = _list_media_files(target_dir, _PICTURE_EXTS, sub_path=group)
         for p, st in mf:
             timestamp = st.st_mtime
 
@@ -978,7 +947,7 @@ def del_media_group(camera_config, group, media_type):
     # create a sentinel file to make sure the target dir is never removed
     open(os.path.join(target_dir, '.keep'), 'w').close()
 
-    mf = _list_media_files(target_dir, exts=exts, prefix=group)
+    mf = _list_media_files(target_dir, exts, sub_path=group)
     for path, st in mf:  # @UnusedVariable
         try:
             os.remove(path)
