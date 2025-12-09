@@ -1657,9 +1657,9 @@ msgid "ekz. http://ekzemplo.com/sciigi/"
 msgstr "pl.: http: // példa.com/ differenciálás/"
 
 #: motioneye/templates/main.html:1138
-#, python-format
+#, fuzzy, python-format
 msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr ""
+msgstr "URL-t kell feltenni, amikor mozgást észlelnek; a következő konkrét megtakarítási útvonalakat elfogadják: %%Y = év, %%m = hónap, %%H = óra, %% %%M = perc, %% %%S = másodperc, %%%q = keretszám, %%%%% v = 8h szám, % %"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
@@ -1687,9 +1687,9 @@ msgid "komando…"
 msgstr "parancs…"
 
 #: motioneye/templates/main.html:1163
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr ""
+msgstr "Parancsolatot indítani, amikor mozgást észlelnek; több parancsot lehet választani a gyarmatiság; nem használnak pontokat a parancsok; a következő konkrét token elfogadott: % –Y = év, % %% %% %% H = óra, %%% M = perc, %% %% S = %% = %% = %% = %% = %% = %% = %% = % %% = %% %% %% %% %% %% %% %% %% %% %% %% %% %%, %"
 
 #: motioneye/templates/main.html:1203
 #, fuzzy
@@ -1697,9 +1697,9 @@ msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento 
 msgstr "Alkalmazza ezt, ha minden alkalommal szeretne parancsot indítani, amikor egy mozgó esemény véget ér."
 
 #: motioneye/templates/main.html:1208
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
-msgstr ""
+msgstr "Parancsnokság indításakor, amikor egy indítási esemény véget ér; több parancsot lehet választani a gyarmatiság; nem használja a pontot a parancsok által összefüggő; a következő speciális token elfogadott: %%Y = év, % % %%M = hónap, % % %%H = óra, %% %% = %% = %% = %% = %% = %% = %%=Framework szám."
 
 #: motioneye/templates/main.html:1218
 #, fuzzy
