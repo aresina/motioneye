@@ -5,20 +5,21 @@
 #
 # seoooma <sooooomasum@gmail.com>, 2023.
 # qnotions <qnotions@gmail.com>, 2024.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-05 22:22+0000\n"
-"PO-Revision-Date: 2024-10-28 17:00+0000\n"
-"Last-Translator: qnotions <qnotions@gmail.com>\n"
+"PO-Revision-Date: 2025-12-09 01:40+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: motioneye/config.py:860
@@ -398,7 +399,7 @@ msgstr "マスクを保存"
 #: motioneye/templates/main.html:350
 #, fuzzy
 msgid "alklaku ĉi tiun butonon por ebligi/malebligi la maskan redaktilon"
-msgstr "このボタンをクリックして、マスクエディターを有効/無効にします"
+msgstr "このボタンをクリックすると、マスクエディタを有効/無効にできます。"
 
 #: motioneye/templates/main.html:361
 msgid "Ekstraj Elektoj"
@@ -678,7 +679,7 @@ msgstr "必要な詳細設定を入力した後、このボタンをクリック
 #: motioneye/templates/main.html:563
 #, fuzzy
 msgid "alvoki URL"
-msgstr "URLを呼び出す"
+msgstr "URL呼び出し"
 
 #: motioneye/templates/main.html:565
 #, fuzzy
@@ -774,7 +775,7 @@ msgstr "カスタムテキスト..."
 #: motioneye/templates/main.html:625
 #, fuzzy, python-format
 msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr "カスタム左テキストを定義します。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、%% T = HH：MM：SS、\\ n =改行"
+msgstr "カスタムの右テキストを定義します。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、%% T = HH：MM：SS、\\ n =改行"
 
 #: motioneye/templates/main.html:628
 msgid "Dekstra Teksto"
@@ -1485,7 +1486,7 @@ msgstr "動き検知されたときに要求するURL。次の特別なトーク
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
 msgid "La HTTP-metodo por uzi kiam vi petas URL (la donitaj URL-parametroj estos transdonitaj kiel indikite ĉi tie)."
-msgstr "URLを要求するときに使用するHTTPメソッド（指定されたURLパラメーターは、ここに示されているように配信されます）。"
+msgstr "ネットワークフックURLを要求するときに使用するHTTPメソッド（指定されたURLエンコードパラメータは、実際にはここで表示された形で送信されます）"
 
 #: motioneye/templates/main.html:1156 motioneye/templates/main.html:1201
 msgid "Lanĉi komando"
@@ -1498,7 +1499,7 @@ msgstr "動き検知されるたびにコマンドを実行する場合は、こ
 #: motioneye/templates/main.html:1161 motioneye/templates/main.html:1206
 #, fuzzy
 msgid "Komando"
-msgstr "コマンド"
+msgstr "コマンド …"
 
 #: motioneye/templates/main.html:1162 motioneye/templates/main.html:1207
 msgid "komando…"
