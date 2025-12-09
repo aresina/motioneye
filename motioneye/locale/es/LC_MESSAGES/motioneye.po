@@ -9,20 +9,21 @@
 # piet <piet@users.noreply.hosted.weblate.org>, 2024.
 # Zhang Wei <Zhang@users.noreply.hosted.weblate.org>, 2024.
 # Edgar Fabela <cocotugo@gmail.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-05 22:22+0000\n"
-"PO-Revision-Date: 2025-04-28 19:11+0000\n"
-"Last-Translator: Pablo Esteban Bondaz <pabloestebanbondaz@gmail.com>\n"
+"PO-Revision-Date: 2025-12-09 02:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: motioneye/config.py:860
@@ -1398,12 +1399,12 @@ msgstr "por ejemplo, http://ejemplo.com/buscar/"
 #: motioneye/templates/main.html:1138
 #, fuzzy, python-format
 msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr "URL que se solicitará cuando se detecte movimiento; Se aceptan los siguientes accesos directos especiales: %% Y = año, %% m = mes, %% d = día, %% H = hora, %% M = minuto, %% S = segundo, %% q = número de fotograma , %% v = número de evento"
+msgstr "URL para transmitir cuando se detecta movimiento; Se aceptan los siguientes accesos directos especiales: %% Y = año, %% m = mes, %% d = día, %% H = hora, %% M = minuto, %% S = segundo, %% q = número de fotograma, %% v = número de evento, %% f = ruta del archivo"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
 msgid "La HTTP-metodo por uzi kiam vi petas URL (la donitaj URL-parametroj estos transdonitaj kiel indikite ĉi tie)."
-msgstr "El método HTTP que se debe usar al solicitar una URL (los parámetros de URL proporcionados se entregarán como se indica aquí)."
+msgstr "el método HTTP que se debe utilizar al solicitar una URL (los parámetros codificados en la URL se entregarán como se indiquen aquí)"
 
 #: motioneye/templates/main.html:1156 motioneye/templates/main.html:1201
 msgid "Lanĉi komando"
