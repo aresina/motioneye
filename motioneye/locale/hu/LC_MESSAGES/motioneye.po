@@ -1562,76 +1562,93 @@ msgid "Aldonitaj bildoj tempo-intervalo"
 msgstr "Hozzáadott képek idő intervallum"
 
 #: motioneye/templates/main.html:1093
+#, fuzzy
 msgid "Difinas la tempo-serĉan intervalon por uzi dum kreado de retpoŝtaj ligiloj (pli altaj valoroj generas retpoŝtojn kun pli da bildoj koste de pliigita prokrasta sciigo); agordi al 0 por malebligi aldonitabildojn; vi ankaŭ devas rajtigi «Kaptitaj bildoj» por ke ĉi tio funkciu."
-msgstr ""
+msgstr "Meghatározza az időkeresési tartományt, hogy használja az e-mail linkek létrehozásakor (a magas értékek e-maileket generálnak több képletköltséggel a megnövekedett késleltetési rekonnácival); a hozzáadott képek összeállítása érdekében is lehetővé kell tennie a \"kriptizált képeket\" a munkához."
 
 #: motioneye/templates/main.html:1097
+#, fuzzy
 msgid "Testi retpoŝto"
-msgstr ""
+msgstr "Test e-mail"
 
 #: motioneye/templates/main.html:1098
+#, fuzzy
 msgid "Alklaku ĉi tiun butonon por testi retpoŝtajn sciigojn post kiam vi plenigis la postulatajn detalojn."
-msgstr ""
+msgstr "Kattintson erre a gombra, hogy tesztelje az e-mail értesítéseket, miután kitöltötte a szükséges részleteket."
 
 #: motioneye/templates/main.html:1104
+#, fuzzy
 msgid "Sendu Telegraman Sciigon"
-msgstr ""
+msgstr "Telegram tudás küldése"
 
 #: motioneye/templates/main.html:1106
+#, fuzzy
 msgid "ebligu tion se vi volas ricevi telegraman mesaĝon kiam ajn moviĝa evento estas detektita"
-msgstr ""
+msgstr "alkalmazza, hogy ha kábeles üzenetet szeretne kapni, amikor mozgó eseményt észlelnek"
 
 #: motioneye/templates/main.html:1109
+#, fuzzy
 msgid "HTTP API ĵetono"
-msgstr ""
+msgstr "HTTP API indul"
 
 #: motioneye/templates/main.html:1110
+#, fuzzy
 msgid "Ekzemplo: 93847672:AACdSn843hsjJsh32bSmdN3sHsh2bsh0xRs_32dbcr1W"
-msgstr ""
+msgstr "Példa: 93847672:AACdSn843hsjJsh32bSmdN3sHsh2bsh0xRs_32dbcr1W"
 
 #: motioneye/templates/main.html:1111
+#, fuzzy
 msgid "Kreante la telegram-bot-babilejon, vi ricevos API-ĵetonon, kiun vi devas enigi ĉi tie. Alklaku la API-butonon sube por paŝo-post-paŝa gvidilo pri kiel akiri vian API-ĵetonon. Ankaŭ nepre babili kun via lastatempe kreita «bot» post kiam via ŝlosilo estas generita, por certigi, ke vi ricevas mesaĝojn."
-msgstr ""
+msgstr "A kábel-bot kábel létrehozásával kap egy API token-t, amelyet itt kell belépnie. Kattintson az API gombra az alábbi lépésről lépésre szóló útmutatóra, hogy hogyan szerezze meg az API tokent. Szintén szükségszerűen chat az újonnan létrehozott \"bot\" után a kulcs generálódik, hogy biztosítsa, hogy kap üzeneteket."
 
 #: motioneye/templates/main.html:1114
+#, fuzzy
 msgid "Babileja ID"
-msgstr ""
+msgstr "Chat ID"
 
 #: motioneye/templates/main.html:1115
+#, fuzzy
 msgid "Ekzemplo: 938272312"
-msgstr ""
+msgstr "Példa: 938272312"
 
 #: motioneye/templates/main.html:1116
+#, fuzzy
 msgid "Kreu novan babilejon al id_chatbot (@id_chatbot) kaj elektu starti. La babilejo redonos la necesan numeron por ĉi tiu kampo."
-msgstr ""
+msgstr "Hozzon létre egy új csevegést az id_chatbot-hoz, és válassza ki a kezdést. A szükséges szám erre a chat."
 
 #: motioneye/templates/main.html:1119
+#, fuzzy
 msgid "Alkroĉitaj Bildoj Tempo"
-msgstr ""
+msgstr "Kiemelt képek idő"
 
 #: motioneye/templates/main.html:1121
+#, fuzzy
 msgid "difinas la bildan serĉtempan intervalon por krei telegramajn aldonojn (pli altaj valoroj generas pli da bildoj koste de pliigita sciiga prokrasto); agordi al 0 por malebligi bildajn aldonaĵojn; vi devas ankaŭ ebligi Senmovajn Bildojn por ke ĉi tio funkciu; vi volos ludi per ĉi tiu numero ĝis bildo estos sendita. Bona komenca numero estas 30 se vi agordas senmovajn bildojn al unu bildmoviĝo ekigita. Por norma movado ekigita, starigu ĉi tion multe pli malalte."
-msgstr ""
+msgstr "meghatározza a képkeresési időtartományt a kábel-kiegészítők létrehozásához (a magas értékek több képet generálnak, amelyek növelték a rekonnáci késleltetést); a kép adalékanyagok megelőzése érdekében 0-at kell kombinálni; lehetővé kell tennie a képek lebontását is ehhez a munkához; ezzel a számmal akar játszani, amíg a képet elküldik. Jó kezdeti szám 30, ha kombinálja az állomásos képeket egy képmozgásra. Szabványos mozgáshoz ez sokkal alacsonyabb."
 
 #: motioneye/templates/main.html:1124
+#, fuzzy
 msgid "API-Informoj"
-msgstr ""
+msgstr "API információ"
 
 #: motioneye/templates/main.html:1125
+#, fuzzy
 msgid "Testo"
-msgstr ""
+msgstr "Testteszt"
 
 #: motioneye/templates/main.html:1131 motioneye/templates/main.html:1176
 msgid "Alvoki URL"
 msgstr ""
 
 #: motioneye/templates/main.html:1133
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas, ke URL estu petata kiam ajn moviĝokazaĵo estas detektita."
-msgstr ""
+msgstr "Alkalmazza ezt, ha azt szeretné, hogy az URL-t kérjék, ha bármilyen indítási eseményt észlelnek."
 
 #: motioneye/templates/main.html:1137
+#, fuzzy
 msgid "ekz. http://ekzemplo.com/sciigi/"
-msgstr ""
+msgstr "pl.: http: // példa.com/ differenciálás/"
 
 #: motioneye/templates/main.html:1138
 #, fuzzy, python-format
@@ -1639,8 +1656,9 @@ msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝp
 msgstr "URL-t kell kérni, amikor mozgást észlelnek; a következő konkrét megtakarítási útvonalakat elfogadják: %Y = év, %d = hónap, %H = óra, %M = perc, %S = másodperc, %q = keretszám, %v = 8h szám"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
+#, fuzzy
 msgid "La HTTP-metodo por uzi kiam vi petas URL (la donitaj URL-parametroj estos transdonitaj kiel indikite ĉi tie)."
-msgstr ""
+msgstr "A HTTP-módszer használata, ha tetszik az URL (az adott URL paraméterek átkerülnek, amint azt itt jelezték)."
 
 #: motioneye/templates/main.html:1156 motioneye/templates/main.html:1201
 #, fuzzy
@@ -1648,8 +1666,9 @@ msgid "Lanĉi komando"
 msgstr "Indítsa el a parancsot"
 
 #: motioneye/templates/main.html:1158
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam moviĝokazaĵo estas detektita."
-msgstr ""
+msgstr "Alkalmazd ezt, ha parancsot akarsz indítani, amikor mozgás eseményt észlelnek."
 
 #: motioneye/templates/main.html:1161 motioneye/templates/main.html:1206
 #, fuzzy
@@ -1667,8 +1686,9 @@ msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komando
 msgstr "Parancsolatot indítani, amikor mozgást észlelnek; számos parancsot el lehet választani a gyarmatiság; nem használnak pontokat a parancsok által; a következő konkrét tokeneket elfogadják: %Y = év, %H = óra, %H = óra, %M = perc, %S = második, %q = keretszám, %v = 8h szám, %"
 
 #: motioneye/templates/main.html:1203
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento finiĝos."
-msgstr ""
+msgstr "Alkalmazza ezt, ha minden alkalommal szeretne parancsot indítani, amikor egy mozgó esemény véget ér."
 
 #: motioneye/templates/main.html:1208
 #, python-format
@@ -1676,24 +1696,29 @@ msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komando
 msgstr ""
 
 #: motioneye/templates/main.html:1218
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas difini ĉiusemajnan horaron por detekto de moviĝo."
-msgstr ""
+msgstr "Alkalmazza ezt, ha egy heti ütemtervet szeretne meghatározni a mozgás észlelésére."
 
 #: motioneye/templates/main.html:1219
+#, fuzzy
 msgid "Laboranta horaro"
-msgstr ""
+msgstr "Munkamenet"
 
 #: motioneye/templates/main.html:1224
+#, fuzzy
 msgid "Lundo"
-msgstr ""
+msgstr "Hétfő"
 
 #: motioneye/templates/main.html:1227
+#, fuzzy
 msgid "de"
-msgstr ""
+msgstr "a"
 
 #: motioneye/templates/main.html:1228
+#, fuzzy
 msgid "ĝis"
-msgstr ""
+msgstr "addig"
 
 #: motioneye/templates/main.html:1230
 #, fuzzy
@@ -1701,8 +1726,9 @@ msgid "Fiksas la labortagan tempintervalon por lundoj."
 msgstr "Rögzítette a hétköznapi időtartományt hétfőn."
 
 #: motioneye/templates/main.html:1233
+#, fuzzy
 msgid "Mardo"
-msgstr ""
+msgstr "Kedd"
 
 #: motioneye/templates/main.html:1239
 #, fuzzy
@@ -1710,8 +1736,9 @@ msgid "Fiksas la labortagan tempintervalon por mardoj."
 msgstr "Rögzítette a hétköznapi időtartományt kedden."
 
 #: motioneye/templates/main.html:1242
+#, fuzzy
 msgid "Merkredo"
-msgstr ""
+msgstr "Szerda"
 
 #: motioneye/templates/main.html:1248
 #, fuzzy
@@ -1719,8 +1746,9 @@ msgid "Fiksas la labortagan tempintervalon por merkredoj."
 msgstr "Rögzítette a hétköznapi időtartományt szerdán."
 
 #: motioneye/templates/main.html:1251
+#, fuzzy
 msgid "Ĵaŭdo"
-msgstr ""
+msgstr "Csütörtök"
 
 #: motioneye/templates/main.html:1257
 #, fuzzy
@@ -1728,8 +1756,9 @@ msgid "Fiksas la labortagan tempintervalon por ĵaŭdoj."
 msgstr "Rögzítette a hétköznapi időtartományt csütörtökön."
 
 #: motioneye/templates/main.html:1260
+#, fuzzy
 msgid "Vendredo"
-msgstr ""
+msgstr "Péntek"
 
 #: motioneye/templates/main.html:1266
 #, fuzzy
@@ -1737,8 +1766,9 @@ msgid "Fiksas la labortagan tempintervalon por vendredoj."
 msgstr "Rögzítette a hétköznapi időtartományt pénteken."
 
 #: motioneye/templates/main.html:1269
+#, fuzzy
 msgid "Sabato"
-msgstr ""
+msgstr "Szombat"
 
 #: motioneye/templates/main.html:1275
 #, fuzzy
@@ -1746,8 +1776,9 @@ msgid "Fiksas la labortagan tempintervalon por sabatoj."
 msgstr "Rögzítette a hétköznapi időtartományt szombaton."
 
 #: motioneye/templates/main.html:1278
+#, fuzzy
 msgid "Dimanĉo"
-msgstr ""
+msgstr "Vasárnap"
 
 #: motioneye/templates/main.html:1284
 #, fuzzy
@@ -1755,64 +1786,76 @@ msgid "Fiksas la labortagan tempintervalon por dimanĉoj."
 msgstr "Rögzítette a hétköznapi időtartományt vasárnap."
 
 #: motioneye/templates/main.html:1287
+#, fuzzy
 msgid "Detekti movadon"
-msgstr ""
+msgstr "Detectic mozgalom"
 
 #: motioneye/templates/main.html:1290
+#, fuzzy
 msgid "Dum laborista horaro"
-msgstr ""
+msgstr "Egy munkamenet során"
 
 #: motioneye/templates/main.html:1291
+#, fuzzy
 msgid "Ekster laborista horaro"
-msgstr ""
+msgstr "Külső munkamenet"
 
 #: motioneye/templates/main.html:1294
+#, fuzzy
 msgid "Difinas, ĉu moviĝodetekto devas esti aktiva dum aŭ ekster la laborista horaro."
-msgstr ""
+msgstr "Határozza meg, hogy a mozgásérzékelésnek aktívnak kell-e lennie a munkamenet során vagy azon kívül."
 
 #: motioneye/utils/dtconv.py:26 motioneye/utils/dtconv.py:65
+#, fuzzy
 msgid "neniam"
-msgstr ""
+msgstr "soha nem"
 
 #: motioneye/utils/dtconv.py:113
+#, fuzzy
 msgid "tago"
-msgstr ""
+msgstr "nap nap napja"
 
 #: motioneye/utils/dtconv.py:116
+#, fuzzy
 msgid "semajno"
-msgstr ""
+msgstr "hét hét"
 
 #: motioneye/utils/dtconv.py:119
+#, fuzzy
 msgid "monato"
-msgstr ""
+msgstr "hónap"
 
 #: motioneye/utils/dtconv.py:122
+#, fuzzy
 msgid "jaro"
-msgstr ""
+msgstr "évi évben"
 
 #: motioneye/utils/dtconv.py:129
 msgid "horo"
 msgstr ""
 
 #: motioneye/utils/dtconv.py:132
+#, fuzzy
 msgid "horoj"
-msgstr ""
+msgstr "órák"
 
 #: motioneye/utils/dtconv.py:136
 msgid "minuto"
 msgstr ""
 
 #: motioneye/utils/dtconv.py:139
+#, fuzzy
 msgid "minutoj"
-msgstr ""
+msgstr "perc"
 
 #: motioneye/utils/dtconv.py:143
 msgid "sekundo"
 msgstr ""
 
 #: motioneye/utils/dtconv.py:153
+#, fuzzy
 msgid "minus"
-msgstr ""
+msgstr "mínusz"
 
 #, fuzzy, python-format
 #~ msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
