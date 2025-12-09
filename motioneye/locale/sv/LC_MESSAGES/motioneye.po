@@ -1552,9 +1552,9 @@ msgid "ekz. http://ekzemplo.com/sciigi/"
 msgstr "e.g. http: //exempel.com/ att differentiera/"
 
 #: motioneye/templates/main.html:1138
-#, python-format
+#, fuzzy, python-format
 msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr ""
+msgstr "URL som ska begäras när rörelsen upptäcks, följande särskilda sparvägar godtas: % %Y = år, % % % % % m = månad, % % % % H = timme, % % % % M = minut, %S = andra, %q = ramnummer, % % %v = 8h tal, % % % % % % % % %"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
@@ -1582,9 +1582,9 @@ msgid "komando…"
 msgstr "kommandot…"
 
 #: motioneye/templates/main.html:1163
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr ""
+msgstr "Kommando som ska inledas när rörelse upptäcks; flera kommandon kan separeras med en kolonialitet; Använd inte poängtjänstemän med kommandon; följande särskilda tokens godtas: % % %–Y = år, % % % % % % % %m = månad, % % % H = timme, % % M = minut, %S = andra, %q = ramnummer, % % %v = åttonde tal, % % %"
 
 #: motioneye/templates/main.html:1203
 #, fuzzy
@@ -1592,9 +1592,9 @@ msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento 
 msgstr "Applicera detta om du vill starta ett kommando varje gång en flytt händelse kommer att sluta."
 
 #: motioneye/templates/main.html:1208
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
-msgstr ""
+msgstr "Kommando som ska inledas när en rörelsehändelse slutar; flera kommandon kan separeras med en kolonisering; Använd inte poängkompasser med kommandon; följande specialtoken accepteras: % %Y = år, % % % % % m = månad, % % % % % % % % % H = timme, % % M = minut, % % % = sekund, % % = sekund, % Q = Ramnummer."
 
 #: motioneye/templates/main.html:1218
 #, fuzzy
