@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-09 23:14+0000\n"
 "PO-Revision-Date: 2025-12-09 23:46+0000\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
+"Last-Translator: MichaIng <micha@dietpi.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -781,9 +781,9 @@ msgid "ordono…"
 msgstr "tilaus…"
 
 #: motioneye/templates/main.html:595
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
-msgstr ""
+msgstr "Multimedian tiedoston luomisen jälkeen suoritettava komento. Useita komentoja voidaan erottaa toisistaan puolipisteellä; älä käytä puolipisteitä komentojen sisällä. Seuraavat erikoistunnukset ovat sallittuja: %%Y = vuosi, %%m = kuukausi, %%d = päivä, %%H = tunti, %%M = minuutti, %%S = sekunti, %%q = kehysnumero, %%v = tapahtumanumero, %%f = tiedostopolku"
 
 #: motioneye/templates/main.html:605
 #, fuzzy
@@ -994,7 +994,7 @@ msgstr "tiedoston nimi…"
 #: motioneye/templates/main.html:749
 #, fuzzy, python-format
 msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-msgstr "Kuvatiedostojen nimimalli (JPEG); seuraavat erityiset tokenit hyväksytään: %-%Y = vuosi,%-% m = kuukausi,%-%-%H = tunti,%-%M = minuutti,%-%S = toinen,%q = frame numero,%v = tapahtumanumero, / = subdosieri."
+msgstr "Määrittää kuvatiedostojen (JPEG) nimeämismallin. Seuraavat erikoistunnukset ovat sallittuja: %%Y = vuosi, %%m = kuukausi, %%d = päivä, %%H = tunti, %%M = minuutti, %%S = sekunti, %%q = kuvanumero, %%v = tapahtumanumero, / = alihakemisto."
 
 #: motioneye/templates/main.html:752
 #, fuzzy
@@ -1155,7 +1155,7 @@ msgstr "Elokuvan nimi"
 #: motioneye/templates/main.html:818
 #, fuzzy, python-format
 msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-msgstr "Määrittelee elokuvatiedostojen nimimallin; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %–%m = kuukausi, % %–%H = tunti, %–%M = minuutti, %–%S = toinen, %q = runko, %v = tapahtumanumero, / = subdosierujo."
+msgstr "Määrittää videotiedostojen nimeämismallin; seuraavat erikoistunnukset ovat sallittuja: %%Y = vuosi, %%m = kuukausi, %%d = päivä, %%H = tunti, %%M = minuutti, %%S = sekunti, %%q = kehysnumero, %%v = tapahtumanumero, / = alihakemisto."
 
 #: motioneye/templates/main.html:821
 #, fuzzy
@@ -1651,7 +1651,7 @@ msgstr "esim. http: // esimerkki.com/ differentiate/"
 #: motioneye/templates/main.html:1138
 #, fuzzy, python-format
 msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr "URL-osoitetta kysytään liikkeen havaitsemisen yhteydessä; seuraavat erityiset säästöväylät hyväksytään: %Y = vuosi, % % % %m = kuukausi, % % %H = tunti, % %M = minuutti, % %S = toinen, %q = kehys, %v = kahdeksas luku, % % % % %"
+msgstr "Liikkeen havaitsemisen yhteydessä pyydettävä URL-osoite; seuraavat erityiset pikakuvakkeet ovat sallittuja: %%Y = vuosi, %%m = kuukausi, %%d = päivä, %%H = tunti, %%M = minuutti, %%S = sekunti, %%q = kehysnumero, %%v = satunnaisluku"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
@@ -1679,9 +1679,9 @@ msgid "komando…"
 msgstr "komento…"
 
 #: motioneye/templates/main.html:1163
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr ""
+msgstr "Komento, joka suoritetaan, kun liike havaitaan; Useita komentoja voidaan erottaa toisistaan kaksoispisteellä; älä käytä puolipisteitä komennoissa; seuraavat erikoistunnukset ovat sallittuja: %%Y = vuosi, %%m = kuukausi, %%d = päivä, %%H = tunti, %%M = minuutti, %%S = sekunti, %%q = kehysnumero, %%v = satunnaisluku"
 
 #: motioneye/templates/main.html:1203
 #, fuzzy
@@ -1689,9 +1689,9 @@ msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento 
 msgstr "Käytä tätä, jos haluat laukaista komennon joka kerta, kun liikkuva tapahtuma päättyy."
 
 #: motioneye/templates/main.html:1208
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
-msgstr ""
+msgstr "Komento, joka suoritetaan liiketapahtuman päättyessä; Useita komentoja voidaan erottaa toisistaan puolipisteellä; älä käytä komennossa pilkkuja; seuraavat erikoistunnukset ovat sallittuja: %%Y = vuosi, %%m = kuukausi, %%d = päivä, %%H = tunti, %%M = minuutti, %%S = sekunti, %%q = kehysnumero."
 
 #: motioneye/templates/main.html:1218
 #, fuzzy
