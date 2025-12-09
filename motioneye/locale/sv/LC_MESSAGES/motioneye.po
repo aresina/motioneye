@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-05 22:22+0000\n"
-"PO-Revision-Date: 2025-12-09 15:00+0000\n"
+"PO-Revision-Date: 2025-12-09 16:07+0000\n"
 "Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/sv/>\n"
 "Language: sv\n"
@@ -664,9 +664,9 @@ msgid "ekz. http://example.com/notify/"
 msgstr "t.ex http://example.com/notify"
 
 #: motioneye/templates/main.html:570
-#, python-format
+#, fuzzy, python-format
 msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
-msgstr ""
+msgstr "URL att överföra när rörelse upptäcks; följande särskilda sparvägar accepteras:% -% Y = år,% -% m = månad,% = dag,% -% H = timme,% -% M = minut,%% S = andra,%q = ramnummer,%v = händelsenummer,% f = filväg"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
 #: motioneye/templates/main.html:1186
@@ -733,9 +733,9 @@ msgid "propra teksto…"
 msgstr "Anpassad Text"
 
 #: motioneye/templates/main.html:625
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
+msgstr "Definierar anpassad vänster text; följande särskilda tokener accepteras:% -% Y = år,% -% m = månad,% = dag,% -% H = timme,% -% M = minut,% -% Q = ramnummer,% -%v = händelsenummer,% T = HH: MM:SS, \\n = ny linje"
 
 #: motioneye/templates/main.html:628
 msgid "Dekstra Teksto"
@@ -746,9 +746,9 @@ msgid "Fiksas la tekston montritan sur la filmoj kaj bildoj, sur la malsupra dek
 msgstr ""
 
 #: motioneye/templates/main.html:642
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
+msgstr "Definierar anpassad rätt text; följande särskilda tokens accepteras:% -% Y = år,% -% m = månad,% = dag,% H = timme,% -% M = minut,% -% -% Q = ramnummer,%v = händelsenummer,% T = HH: MM:SS, \\n = ny linje"
 
 #: motioneye/templates/main.html:645
 msgid "Teksta Skalo"
