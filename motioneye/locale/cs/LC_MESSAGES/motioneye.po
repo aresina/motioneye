@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-09 23:14+0000\n"
-"PO-Revision-Date: 2025-12-09 23:09+0000\n"
+"PO-Revision-Date: 2025-12-09 23:46+0000\n"
 "Last-Translator: MichaIng <micha@dietpi.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/cs/>\n"
 "Language: cs\n"
@@ -737,11 +737,9 @@ msgid "propra teksto…"
 msgstr "Vlastní text…"
 
 #: motioneye/templates/main.html:625
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
-"Definuje vlastní levý text; Přijímají se následující speciální tokeny: %% y = rok, %% m = měsíc, %% d = den, %% h = hodinu, % m = minuta, %% s = sekundu, %% q = číslo rámce, %% v = číslo události, %% t = hh: mm: ss, \n"
-" = new řádek"
+msgstr "Definuje vlastní nastavení pro text zarovnaný vlevo; jsou povoleny následující speciální znaky: %%Y = rok, %%m = měsíc, %%d = den, %%H = hodina, %%M = minuta, %%S = sekunda, %%q = číslo snímku, %%v = číslo události, %%T = HH:MM:SS, \\n = nový řádek"
 
 #: motioneye/templates/main.html:628
 msgid "Dekstra Teksto"
@@ -752,11 +750,9 @@ msgid "Fiksas la tekston montritan sur la filmoj kaj bildoj, sur la malsupra dek
 msgstr "Nastaví text zobrazený na filmech a obrázcích, v pravém dolním rohu"
 
 #: motioneye/templates/main.html:642
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
-"Definuje vlastní pravý text; Přijímají se následující speciální tokeny: %% y = rok, %% m = měsíc, %% d = den, %% h = hodinu, % m = minuta, %% s = sekundu, %% q = číslo rámce, %% v = číslo události, %% t = hh: mm: ss, \n"
-" = new řádek"
+msgstr "Definuje formát textu na pravé straně; jsou akceptovány následující speciální tokeny: %%Y = rok, %%m = měsíc, %%d = den, %%H = hodina, %%M = minuta, %%S = sekunda, %%q = číslo snímku, %%v = číslo události, %%T = HH:MM:SS, \\n = nový řádek"
 
 #: motioneye/templates/main.html:645
 msgid "Teksta Skalo"
