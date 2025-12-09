@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-09 16:07+0000\n"
+"POT-Creation-Date: 2025-12-09 23:08+0000\n"
 "PO-Revision-Date: 2025-12-09 23:09+0000\n"
 "Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/el/>\n"
@@ -666,8 +666,8 @@ msgid "ekz. http://example.com/notify/"
 msgstr "π.χ. http://example.com/notify/"
 
 #: motioneye/templates/main.html:570
-#, fuzzy, python-format
-msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
+#, python-format
+msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
 msgstr "URL για μεταφορά όταν εντοπίζεται η κίνηση. Οι ακόλουθες ειδικές συντομεύσεις γίνονται αποδεκτές: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = αριθμός συμβάντος, %% f = τρόπος αρχείου"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
@@ -696,8 +696,8 @@ msgid "ordono…"
 msgstr "Σειρά…"
 
 #: motioneye/templates/main.html:595
-#, fuzzy, python-format
-msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
+#, python-format
+msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
 msgstr "Εντολή που θα επιτευχθεί μετά τη δημιουργία ενός αρχείου πολυμέσων. Αρκετές εντολές μπορούν να διαχωριστούν με ένα όνομα σημείου. Μην χρησιμοποιείτε ένα όνομα σημείου σε εντολές. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = περιστασιακός αριθμός, %% f = τρόπος αρχείου"
 
 #: motioneye/templates/main.html:605
@@ -734,9 +734,11 @@ msgid "propra teksto…"
 msgstr "Προσαρμοσμένο κείμενο…"
 
 #: motioneye/templates/main.html:625
-#, fuzzy, python-format
-msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
-msgstr "Ορίζει προσαρμοσμένο δεξί κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %Y = έτος, %m = Month, %d = ημέρα, %H = ώρα, %M = Minute, %S = Second, %q = αριθμός πλαισίου, %v = αριθμός συμβάντος, %T = hh: mm: ss, \\n = νέα γραμμή"
+#, python-format
+msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
+msgstr ""
+"Ορίζει ένα προσαρμοσμένο αριστερό κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = αριθμός συμβάντος, %% t = hh: mm: ss, \n"
+" = νέα γραμμή"
 
 #: motioneye/templates/main.html:628
 msgid "Dekstra Teksto"
@@ -747,9 +749,11 @@ msgid "Fiksas la tekston montritan sur la filmoj kaj bildoj, sur la malsupra dek
 msgstr "Ορίζει το κείμενο που εμφανίζεται στις ταινίες και τις εικόνες, στην κάτω δεξιά γωνία"
 
 #: motioneye/templates/main.html:642
-#, fuzzy, python-format
-msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
-msgstr "Ορίζει προσαρμοσμένο δεξί κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %Y = έτος, %m = Month, %d = ημέρα, %H = ώρα, %M = Minute, %S = Second, %q = αριθμός πλαισίου, %v = αριθμός συμβάντος, %T = hh: mm: ss, \\n = νέα γραμμή"
+#, python-format
+msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
+msgstr ""
+"Ορίζει προσαρμοσμένο δεξί κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = αριθμός συμβάντος, %% t = hh: mm: ss, \n"
+" = νέα γραμμή"
 
 #: motioneye/templates/main.html:645
 msgid "Teksta Skalo"
@@ -868,8 +872,8 @@ msgid "dosiernomo ŝablono…"
 msgstr "Πρότυπο Όνομα αρχείου…"
 
 #: motioneye/templates/main.html:749
-#, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+#, python-format
+msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
 msgstr "Ορίζει το πρότυπο ονομασίας για αρχεία εικόνας (JPEG). Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% V = Αριθμός συμβάντος, / = Υποδιάγραμμα."
 
 #: motioneye/templates/main.html:752
@@ -1000,8 +1004,8 @@ msgid "Filma Dosiernomo"
 msgstr "Όνομα αρχείου"
 
 #: motioneye/templates/main.html:818
-#, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+#, python-format
+msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
 msgstr "Ορίζει το πρότυπο ονομασίας για τα αρχεία ταινιών. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% V = Αριθμός συμβάντος, / = Υποδιάγραμμα."
 
 #: motioneye/templates/main.html:821
@@ -1400,8 +1404,8 @@ msgid "ekz. http://ekzemplo.com/sciigi/"
 msgstr "π.χ. http://ekzemplo.com/sciigi/"
 
 #: motioneye/templates/main.html:1138
-#, fuzzy, python-format
-msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+#, python-format
+msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
 msgstr "URL που πρέπει να ζητηθεί όταν εντοπίζεται η κίνηση. Οι ακόλουθες ειδικές συντομεύσεις γίνονται αποδεκτές: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% V = περιστασιακός αριθμός"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
@@ -1425,8 +1429,8 @@ msgid "komando…"
 msgstr "Εντολή…"
 
 #: motioneye/templates/main.html:1163
-#, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+#, python-format
+msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
 msgstr "Εντολή που θα ξεκινήσει κατά την ανίχνευση της κίνησης. Πολλές εντολές μπορούν να διαχωριστούν από ένα κόλον. Μην χρησιμοποιείτε ημικόλια με εντολές. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = Day, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = Αριθμός πλαισίου , %% V = περιστασιακός αριθμός"
 
 #: motioneye/templates/main.html:1203
@@ -1434,8 +1438,8 @@ msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento 
 msgstr "Ενεργοποιήστε αυτό εάν θέλετε να ξεκινήσετε μια εντολή κάθε φορά που ένα συμβάν κίνησης έχει τελειώσει."
 
 #: motioneye/templates/main.html:1208
-#, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
+#, python-format
+msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
 msgstr "Εντολή που θα ξεκινήσει όταν τελειώνει ένα συμβάν κίνησης. Πολλές εντολές μπορούν να διαχωριστούν από ένα κόλον. Μην χρησιμοποιείτε ενώσεις σημείων με εντολές. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημερομηνία, %% H = ώρα, %% M = Minute, %% S = δεύτερο, %% Q = αριθμός πλαισίου."
 
 #: motioneye/templates/main.html:1218
@@ -1570,42 +1574,38 @@ msgstr "ένα δεύτερο"
 msgid "minus"
 msgstr "μείον"
 
-#, python-format
-#~ msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
+#, fuzzy, python-format
+#~ msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
 #~ msgstr "URL για μεταφορά όταν εντοπίζεται η κίνηση. Οι ακόλουθες ειδικές συντομεύσεις γίνονται αποδεκτές: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = αριθμός συμβάντος, %% f = τρόπος αρχείου"
 
-#, python-format
-#~ msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
+#, fuzzy, python-format
+#~ msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
 #~ msgstr "Εντολή που θα επιτευχθεί μετά τη δημιουργία ενός αρχείου πολυμέσων. Αρκετές εντολές μπορούν να διαχωριστούν με ένα όνομα σημείου. Μην χρησιμοποιείτε ένα όνομα σημείου σε εντολές. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = περιστασιακός αριθμός, %% f = τρόπος αρχείου"
 
-#, python-format
-#~ msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-#~ msgstr ""
-#~ "Ορίζει ένα προσαρμοσμένο αριστερό κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = αριθμός συμβάντος, %% t = hh: mm: ss, \n"
-#~ " = νέα γραμμή"
+#, fuzzy, python-format
+#~ msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+#~ msgstr "Ορίζει προσαρμοσμένο δεξί κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %Y = έτος, %m = Month, %d = ημέρα, %H = ώρα, %M = Minute, %S = Second, %q = αριθμός πλαισίου, %v = αριθμός συμβάντος, %T = hh: mm: ss, \\n = νέα γραμμή"
 
-#, python-format
-#~ msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-#~ msgstr ""
-#~ "Ορίζει προσαρμοσμένο δεξί κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% v = αριθμός συμβάντος, %% t = hh: mm: ss, \n"
-#~ " = νέα γραμμή"
+#, fuzzy, python-format
+#~ msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+#~ msgstr "Ορίζει προσαρμοσμένο δεξί κείμενο. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %Y = έτος, %m = Month, %d = ημέρα, %H = ώρα, %M = Minute, %S = Second, %q = αριθμός πλαισίου, %v = αριθμός συμβάντος, %T = hh: mm: ss, \\n = νέα γραμμή"
 
-#, python-format
-#~ msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
+#, fuzzy, python-format
+#~ msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
 #~ msgstr "Ορίζει το πρότυπο ονομασίας για αρχεία εικόνας (JPEG). Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% V = Αριθμός συμβάντος, / = Υποδιάγραμμα."
 
-#, python-format
-#~ msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
+#, fuzzy, python-format
+#~ msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
 #~ msgstr "Ορίζει το πρότυπο ονομασίας για τα αρχεία ταινιών. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% V = Αριθμός συμβάντος, / = Υποδιάγραμμα."
 
-#, python-format
-#~ msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
+#, fuzzy, python-format
+#~ msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
 #~ msgstr "URL που πρέπει να ζητηθεί όταν εντοπίζεται η κίνηση. Οι ακόλουθες ειδικές συντομεύσεις γίνονται αποδεκτές: %% Y = έτος, %% M = Month, %% D = ημέρα, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = αριθμός πλαισίου, %% V = περιστασιακός αριθμός"
 
-#, python-format
-#~ msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
+#, fuzzy, python-format
+#~ msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
 #~ msgstr "Εντολή που θα ξεκινήσει κατά την ανίχνευση της κίνησης. Πολλές εντολές μπορούν να διαχωριστούν από ένα κόλον. Μην χρησιμοποιείτε ημικόλια με εντολές. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = Day, %% H = ώρα, %% M = Minute, %% S = Second, %% Q = Αριθμός πλαισίου , %% V = περιστασιακός αριθμός"
 
-#, python-format
-#~ msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
+#, fuzzy, python-format
+#~ msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
 #~ msgstr "Εντολή που θα ξεκινήσει όταν τελειώνει ένα συμβάν κίνησης. Πολλές εντολές μπορούν να διαχωριστούν από ένα κόλον. Μην χρησιμοποιείτε ενώσεις σημείων με εντολές. Τα ακόλουθα ειδικά μάρκες γίνονται αποδεκτά: %% Y = έτος, %% M = Month, %% D = ημερομηνία, %% H = ώρα, %% M = Minute, %% S = δεύτερο, %% Q = αριθμός πλαισίου."

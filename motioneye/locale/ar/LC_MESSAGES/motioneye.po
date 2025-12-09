@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-09 16:07+0000\n"
+"POT-Creation-Date: 2025-12-09 23:08+0000\n"
 "PO-Revision-Date: 2025-12-09 23:08+0000\n"
 "Last-Translator: MichaIng <micha@dietpi.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/ar/>\n"
@@ -818,8 +818,8 @@ msgstr "على سبيل المثال http://example.com/notify/"
 
 #: motioneye/templates/main.html:570
 #, fuzzy, python-format
-msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
-msgstr "URL to transfer when motion is detected; the following particular savings routes are accepted:%Y = year,%m = month,% = day,%H = hour,%M = minute,%S = second,%q = frame number,%v = event number,%f= file road"
+msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
+msgstr "عنوان URL للإرسال عند اكتشاف الحركة ؛ يتم قبول الاختصارات الخاصة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = day، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number، ٪٪ v = رقم الحدث ، ٪٪ f = مسار الملف"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
 #: motioneye/templates/main.html:1186
@@ -854,8 +854,8 @@ msgstr "طلب…"
 
 #: motioneye/templates/main.html:595
 #, fuzzy, python-format
-msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
-msgstr "القيادة التي يتعين الوفاء بها بعد إنشاء ملف متعدد الوسائط. ويمكن فصل العديد من الأوامر بإسم نقطة؛ ولا تستخدم اسم نقطة في القيادة؛ وتُقبل الرموز الخاصة التالية: %Y = سنة، ٪ م = شهر، ٪ حاء = ساعة، ٪ م = دقيقة، ٪ م = ثانية، ٪ = رقم إطاري، ٪v = عدد الحدث، ٪"
+msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
+msgstr "الأمر الذي سيتم تنفيذه بعد إنشاء ملف وسائط متعددة. يمكن فصل عدة أوامر بفاصلة منقوطة؛ لا تستخدم الفاصلة المنقوطة في الأوامر ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، ٪٪ f = مسار الملف"
 
 #: motioneye/templates/main.html:605
 #, fuzzy
@@ -900,8 +900,8 @@ msgstr "نص مخصص…"
 
 #: motioneye/templates/main.html:625
 #, fuzzy, python-format
-msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
-msgstr "يحدد النص الأيمن المخصص ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، ٪٪ T = HH: MM: SS ، \\n = سطر جديد"
+msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
+msgstr "يحدد نص مخصص على اليسار ؛ يتم قبول الرموز المميزة التالية: %% Y = سنة ، %% م = شهر ، %% d = يوم ، %% H = ساعة ، %% M = دقيقة ، %% S = ثانية ، [ X156X] q = رقم الإطار ، %% v = رقم الحدث ، %% T = HH: MM: SS ، \\n = سطر جديد"
 
 #: motioneye/templates/main.html:628
 #, fuzzy
@@ -915,7 +915,7 @@ msgstr "يضبط النص المعروض على الأفلام والصور ، �
 
 #: motioneye/templates/main.html:642
 #, fuzzy, python-format
-msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
 msgstr "يحدد النص الأيمن المخصص ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، ٪٪ T = HH: MM: SS ، \\n = سطر جديد"
 
 #: motioneye/templates/main.html:645
@@ -1065,8 +1065,8 @@ msgstr "قالب اسم الملف…"
 
 #: motioneye/templates/main.html:749
 #, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
-msgstr "يحدد نموذج الاسم لملفات الصور (JPEG)؛ ويُقبل الرمز التالي: %Y = سنة،٪م = شهر،٪ م = يوم،٪ حاء = ساعة،٪ م = دقيقة،٪ م = ثانية،٪ م = رقم إطار، ٪v = رقم الحدث، /."
+msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
+msgstr "يحدد قالب الاسم لملفات JPEG ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، / = دليل فرعي."
 
 #: motioneye/templates/main.html:752
 #, fuzzy
@@ -1227,8 +1227,8 @@ msgstr "اسم ملف الفيلم"
 
 #: motioneye/templates/main.html:818
 #, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
-msgstr "يحدد نموذج الاسم لملفات الأفلام؛ ويُقبل الرمزان الخاصان التاليان: %Y = السنة،٪م = الشهر،٪ = اليوم،٪ حاء = ساعة،٪م=دقيقة،٪م=دقيقة،٪س=ثانية،٪ق =الرقم الإطاري،%v = عدد الحدث، / = شظايا."
+msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
+msgstr "يحدد قالب الاسم لملفات الفيلم ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، / = دليل فرعي."
 
 #: motioneye/templates/main.html:821
 #, fuzzy
@@ -1723,8 +1723,8 @@ msgstr "على سبيل المثال http://example.com/search/"
 
 #: motioneye/templates/main.html:1138
 #, fuzzy, python-format
-msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
-msgstr "URL to be asked when motion is detected; the following particular savings routes are accepted: %Y = year, %m = month, %d = day, %H = hour, %M = minute, %S = second,q = frame number, %v = VIII number"
+msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
+msgstr "عنوان URL المطلوب عند الكشف عن الحركة ؛ يتم قبول الاختصارات الخاصة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = day، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number ، ٪٪ v = رقم الحدث"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
@@ -1753,8 +1753,8 @@ msgstr "أمر…"
 
 #: motioneye/templates/main.html:1163
 #, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
-msgstr "القيادة التي يتعين إطلاقها عند اكتشاف الطلب؛ ويمكن فصل العديد من الأوامر عن طريق مستعمرة؛ ولا تستخدم كتبة النقاط من قبل القيادات؛ وتُقبَل الرموز التالية: النسبة المئوية للسن = السنة، النسبة المئوية للشهر، النسبة المئوية للهكتار = الساعة، النسبة المئوية للهكتار = ساعة، النسبة المئوية للترميز = الدقائق، النسبة المئوية للدقيقة = الثانية، النسبة المئوية للإطار = الرقم الثامن، النسبة المئوية"
+msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
+msgstr "الأمر الذي سيبدأ عندما يتم الكشف عن الحركة ؛ يمكن فصل أوامر متعددة بنقطتين ؛ لا تستخدم الفواصل المنقوطة مع الأوامر ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = day، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number ، ٪٪ v = رقم الحدث"
 
 #: motioneye/templates/main.html:1203
 #, fuzzy
@@ -1763,8 +1763,8 @@ msgstr "قم بتمكين هذا إذا كنت تريد تشغيل أمر في �
 
 #: motioneye/templates/main.html:1208
 #, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
-msgstr "(ب) القيادة التي ستُطلق عند انتهاء الحدث؛ ويمكن فصل العديد من الأوامر عن طريق مستعمرة؛ ولا تستخدم تركيبات النقاط حسب الأوامر؛ أما الرموز الخاصة التالية فتُقبَل: النسبة المئوية للسنة، النسبة المئوية = الشهر، النسبة المئوية للهكتار = ساعة، النسبة المئوية للساعة، ٪ م = دقيقة، ٪ س = ثانية، ٪ م = رقم إطاري."
+msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
+msgstr "يتم إطلاق الأمر عند انتهاء حدث الحركة ؛ يمكن فصل أوامر متعددة بنقطتين ؛ لا تستخدم نقاط كومز مع الأوامر ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = date، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number."
 
 #: motioneye/templates/main.html:1218
 #, fuzzy
@@ -1932,37 +1932,37 @@ msgid "minus"
 msgstr "ناقص"
 
 #, fuzzy, python-format
-#~ msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
-#~ msgstr "عنوان URL للإرسال عند اكتشاف الحركة ؛ يتم قبول الاختصارات الخاصة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = day، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number، ٪٪ v = رقم الحدث ، ٪٪ f = مسار الملف"
+#~ msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
+#~ msgstr "URL to transfer when motion is detected; the following particular savings routes are accepted:%Y = year,%m = month,% = day,%H = hour,%M = minute,%S = second,%q = frame number,%v = event number,%f= file road"
 
 #, fuzzy, python-format
-#~ msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
-#~ msgstr "الأمر الذي سيتم تنفيذه بعد إنشاء ملف وسائط متعددة. يمكن فصل عدة أوامر بفاصلة منقوطة؛ لا تستخدم الفاصلة المنقوطة في الأوامر ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، ٪٪ f = مسار الملف"
+#~ msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
+#~ msgstr "القيادة التي يتعين الوفاء بها بعد إنشاء ملف متعدد الوسائط. ويمكن فصل العديد من الأوامر بإسم نقطة؛ ولا تستخدم اسم نقطة في القيادة؛ وتُقبل الرموز الخاصة التالية: %Y = سنة، ٪ م = شهر، ٪ حاء = ساعة، ٪ م = دقيقة، ٪ م = ثانية، ٪ = رقم إطاري، ٪v = عدد الحدث، ٪"
 
 #, fuzzy, python-format
-#~ msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-#~ msgstr "يحدد نص مخصص على اليسار ؛ يتم قبول الرموز المميزة التالية: %% Y = سنة ، %% م = شهر ، %% d = يوم ، %% H = ساعة ، %% M = دقيقة ، %% S = ثانية ، [ X156X] q = رقم الإطار ، %% v = رقم الحدث ، %% T = HH: MM: SS ، \\n = سطر جديد"
-
-#, fuzzy, python-format
-#~ msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
+#~ msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
 #~ msgstr "يحدد النص الأيمن المخصص ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، ٪٪ T = HH: MM: SS ، \\n = سطر جديد"
 
 #, fuzzy, python-format
-#~ msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-#~ msgstr "يحدد قالب الاسم لملفات JPEG ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، / = دليل فرعي."
+#~ msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+#~ msgstr "يحدد النص الأيمن المخصص ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، ٪٪ T = HH: MM: SS ، \\n = سطر جديد"
 
 #, fuzzy, python-format
-#~ msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-#~ msgstr "يحدد قالب الاسم لملفات الفيلم ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year ، ٪٪ m = month ، ٪٪ d = day ، ٪٪ H = hour ، ٪٪ M = minutes ، ٪٪ S = second ، ٪٪ q = frame number ، ٪٪ v = رقم الحدث ، / = دليل فرعي."
+#~ msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+#~ msgstr "يحدد نموذج الاسم لملفات الصور (JPEG)؛ ويُقبل الرمز التالي: %Y = سنة،٪م = شهر،٪ م = يوم،٪ حاء = ساعة،٪ م = دقيقة،٪ م = ثانية،٪ م = رقم إطار، ٪v = رقم الحدث، /."
 
 #, fuzzy, python-format
-#~ msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-#~ msgstr "عنوان URL المطلوب عند الكشف عن الحركة ؛ يتم قبول الاختصارات الخاصة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = day، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number ، ٪٪ v = رقم الحدث"
+#~ msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+#~ msgstr "يحدد نموذج الاسم لملفات الأفلام؛ ويُقبل الرمزان الخاصان التاليان: %Y = السنة،٪م = الشهر،٪ = اليوم،٪ حاء = ساعة،٪م=دقيقة،٪م=دقيقة،٪س=ثانية،٪ق =الرقم الإطاري،%v = عدد الحدث، / = شظايا."
 
 #, fuzzy, python-format
-#~ msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-#~ msgstr "الأمر الذي سيبدأ عندما يتم الكشف عن الحركة ؛ يمكن فصل أوامر متعددة بنقطتين ؛ لا تستخدم الفواصل المنقوطة مع الأوامر ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = day، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number ، ٪٪ v = رقم الحدث"
+#~ msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+#~ msgstr "URL to be asked when motion is detected; the following particular savings routes are accepted: %Y = year, %m = month, %d = day, %H = hour, %M = minute, %S = second,q = frame number, %v = VIII number"
 
 #, fuzzy, python-format
-#~ msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
-#~ msgstr "يتم إطلاق الأمر عند انتهاء حدث الحركة ؛ يمكن فصل أوامر متعددة بنقطتين ؛ لا تستخدم نقاط كومز مع الأوامر ؛ يتم قبول الرموز المميزة التالية: ٪٪ Y = year، ٪٪ m = month، ٪٪ d = date، ٪٪ H = hour، ٪٪ M = minutes، ٪٪ S = second، ٪٪ q = frame number."
+#~ msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+#~ msgstr "القيادة التي يتعين إطلاقها عند اكتشاف الطلب؛ ويمكن فصل العديد من الأوامر عن طريق مستعمرة؛ ولا تستخدم كتبة النقاط من قبل القيادات؛ وتُقبَل الرموز التالية: النسبة المئوية للسن = السنة، النسبة المئوية للشهر، النسبة المئوية للهكتار = الساعة، النسبة المئوية للهكتار = ساعة، النسبة المئوية للترميز = الدقائق، النسبة المئوية للدقيقة = الثانية، النسبة المئوية للإطار = الرقم الثامن، النسبة المئوية"
+
+#, fuzzy, python-format
+#~ msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
+#~ msgstr "(ب) القيادة التي ستُطلق عند انتهاء الحدث؛ ويمكن فصل العديد من الأوامر عن طريق مستعمرة؛ ولا تستخدم تركيبات النقاط حسب الأوامر؛ أما الرموز الخاصة التالية فتُقبَل: النسبة المئوية للسنة، النسبة المئوية = الشهر، النسبة المئوية للهكتار = ساعة، النسبة المئوية للساعة، ٪ م = دقيقة، ٪ س = ثانية، ٪ م = رقم إطاري."

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-09 16:07+0000\n"
+"POT-Creation-Date: 2025-12-09 23:08+0000\n"
 "PO-Revision-Date: 2025-12-09 23:09+0000\n"
 "Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/fi/>\n"
@@ -747,8 +747,8 @@ msgstr "http://example.com/ilmoitus/"
 
 #: motioneye/templates/main.html:570
 #, fuzzy, python-format
-msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
-msgstr "URL siirtää, kun liike havaitaan; seuraavat säästöreitit hyväksytään: %Y = vuosi, %m = kuukausi, % = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = kehys, %v = tapahtumanumero, %f = tiedostotie"
+msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
+msgstr "URL-osoite siirtoon, kun liike havaitaan; seuraavat säästöreitit hyväksytään: %-%Y = vuosi,%-% m = kuukausi,% = päivä,%-%H = tunti,%-%M = minuutti,%S = toinen,%q = frame numero,%v = tapahtuma numero,%f = tiedostotie"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
 #: motioneye/templates/main.html:1186
@@ -781,9 +781,9 @@ msgid "ordono…"
 msgstr "tilaus…"
 
 #: motioneye/templates/main.html:595
-#, fuzzy, python-format
-msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
-msgstr "Käsitä, että se täytetään multimediatiedoston luomisen jälkeen. Useat komennot voidaan erottaa pisteen nimestä; älä käytä pisteen nimeä komennoissa; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, %H = tunti, %M = minuutti, %S = toinen, %q = Puitenumero, %v = Tapahtuma, %f = tiedostotie"
+#, python-format
+msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
+msgstr ""
 
 #: motioneye/templates/main.html:605
 #, fuzzy
@@ -828,8 +828,8 @@ msgstr "oma teksti…"
 
 #: motioneye/templates/main.html:625
 #, fuzzy, python-format
-msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
-msgstr "Määrittele räätälöity vasen teksti; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = frame numero, %v = tapahtumanumero, %T = HH:M:S, \\n = uusi linja"
+msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
+msgstr "Määrittele räätälöity vasen teksti; seuraavat erityiset tokenit hyväksytään: %-%Y = vuosi, %-% m = kuukausi,% = päivä,%-%H = tunti,%-%M = minuutti,%-%q = runko, %-%v = tapahtumamäärä, %T = HH:M:S, \\n = uusi linja"
 
 #: motioneye/templates/main.html:628
 #, fuzzy
@@ -843,8 +843,8 @@ msgstr "Korjattu teksti elokuvissa ja kuvissa, alakulmassa"
 
 #: motioneye/templates/main.html:642
 #, fuzzy, python-format
-msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
-msgstr "Määrittää mukautetun oikean tekstin; seuraavat erityiset tunnusluvut hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = min, %S = toinen, %q = frame numero, %v = tapahtumanumero, %T = HH:M:SS, \\n = uusi linja"
+msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
+msgstr "Määritellään mukautettu teksti; seuraavat erityiset tokenit hyväksytään: %-%Y = vuosi, %-% m = kuukausi, % = päivä, %H = tunti, %-%M = minuutti, %-%-%q = runko, %v = tapahtumanumero, %T = HH:M:S, n = uusi linja"
 
 #: motioneye/templates/main.html:645
 #, fuzzy
@@ -992,9 +992,9 @@ msgid "dosiernomo ŝablono…"
 msgstr "tiedoston nimi…"
 
 #: motioneye/templates/main.html:749
-#, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
-msgstr "Kuvatiedostojen nimimalli (JPEG); seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = runko, %v = tapahtumanumero, / = subdosier-säiliö."
+#, python-format
+msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
+msgstr ""
 
 #: motioneye/templates/main.html:752
 #, fuzzy
@@ -1153,9 +1153,9 @@ msgid "Filma Dosiernomo"
 msgstr "Elokuvan nimi"
 
 #: motioneye/templates/main.html:818
-#, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
-msgstr "Elokuvatiedostojen nimimalli; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, % = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = frame numero, %v = tapahtumanumero, / = subdosierlion."
+#, python-format
+msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
+msgstr ""
 
 #: motioneye/templates/main.html:821
 #, fuzzy
@@ -1649,9 +1649,9 @@ msgid "ekz. http://ekzemplo.com/sciigi/"
 msgstr "esim. http: // esimerkki.com/ differentiate/"
 
 #: motioneye/templates/main.html:1138
-#, fuzzy, python-format
-msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
-msgstr "URL-osoitetta kysytään, milloin liike havaitaan; seuraavat säästöreitit hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = kehysluku, %v = kahdeksas numero"
+#, python-format
+msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
+msgstr ""
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
@@ -1679,9 +1679,9 @@ msgid "komando…"
 msgstr "komento…"
 
 #: motioneye/templates/main.html:1163
-#, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
-msgstr "Komennetaan, kun liike havaitaan; lukuisat komennot voidaan erottaa siirtomaalla; älkää käyttäkö pisteleikkejä komennoilla; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %H = tunti, %H = tunti, %M = minuutti, %S = toinen, %q = kehysluku, %v = kahdeksas numero, % = kahdeksas numero"
+#, python-format
+msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
+msgstr ""
 
 #: motioneye/templates/main.html:1203
 #, fuzzy
@@ -1689,9 +1689,9 @@ msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento 
 msgstr "Käytä tätä, jos haluat laukaista komennon joka kerta, kun liikkuva tapahtuma päättyy."
 
 #: motioneye/templates/main.html:1208
-#, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
-msgstr "Komennetaan, kun liiketapahtuma päättyy; useita komentoja voidaan erottaa siirtomaalla; älkää käyttäkö pistekoostumuksia komennoilla; seuraavat erityiset tunnusluvut hyväksytään: %Y = vuosi, %H = tunti, %M = minuutti, %S = toinen, %q = puitenumero."
+#, python-format
+msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
+msgstr ""
 
 #: motioneye/templates/main.html:1218
 #, fuzzy
@@ -1855,13 +1855,37 @@ msgid "minus"
 msgstr "miinus"
 
 #, fuzzy, python-format
-#~ msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
-#~ msgstr "URL-osoite siirtoon, kun liike havaitaan; seuraavat säästöreitit hyväksytään: %-%Y = vuosi,%-% m = kuukausi,% = päivä,%-%H = tunti,%-%M = minuutti,%S = toinen,%q = frame numero,%v = tapahtuma numero,%f = tiedostotie"
+#~ msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
+#~ msgstr "URL siirtää, kun liike havaitaan; seuraavat säästöreitit hyväksytään: %Y = vuosi, %m = kuukausi, % = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = kehys, %v = tapahtumanumero, %f = tiedostotie"
 
 #, fuzzy, python-format
-#~ msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-#~ msgstr "Määrittele räätälöity vasen teksti; seuraavat erityiset tokenit hyväksytään: %-%Y = vuosi, %-% m = kuukausi,% = päivä,%-%H = tunti,%-%M = minuutti,%-%q = runko, %-%v = tapahtumamäärä, %T = HH:M:S, \\n = uusi linja"
+#~ msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
+#~ msgstr "Käsitä, että se täytetään multimediatiedoston luomisen jälkeen. Useat komennot voidaan erottaa pisteen nimestä; älä käytä pisteen nimeä komennoissa; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, %H = tunti, %M = minuutti, %S = toinen, %q = Puitenumero, %v = Tapahtuma, %f = tiedostotie"
 
 #, fuzzy, python-format
-#~ msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-#~ msgstr "Määritellään mukautettu teksti; seuraavat erityiset tokenit hyväksytään: %-%Y = vuosi, %-% m = kuukausi, % = päivä, %H = tunti, %-%M = minuutti, %-%-%q = runko, %v = tapahtumanumero, %T = HH:M:S, n = uusi linja"
+#~ msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+#~ msgstr "Määrittele räätälöity vasen teksti; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = frame numero, %v = tapahtumanumero, %T = HH:M:S, \\n = uusi linja"
+
+#, fuzzy, python-format
+#~ msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+#~ msgstr "Määrittää mukautetun oikean tekstin; seuraavat erityiset tunnusluvut hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = min, %S = toinen, %q = frame numero, %v = tapahtumanumero, %T = HH:M:SS, \\n = uusi linja"
+
+#, fuzzy, python-format
+#~ msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+#~ msgstr "Kuvatiedostojen nimimalli (JPEG); seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = runko, %v = tapahtumanumero, / = subdosier-säiliö."
+
+#, fuzzy, python-format
+#~ msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+#~ msgstr "Elokuvatiedostojen nimimalli; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %m = kuukausi, % = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = frame numero, %v = tapahtumanumero, / = subdosierlion."
+
+#, fuzzy, python-format
+#~ msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+#~ msgstr "URL-osoitetta kysytään, milloin liike havaitaan; seuraavat säästöreitit hyväksytään: %Y = vuosi, %m = kuukausi, %d = päivä, %H = tunti, %M = minuutti, %S = toinen, %q = kehysluku, %v = kahdeksas numero"
+
+#, fuzzy, python-format
+#~ msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+#~ msgstr "Komennetaan, kun liike havaitaan; lukuisat komennot voidaan erottaa siirtomaalla; älkää käyttäkö pisteleikkejä komennoilla; seuraavat erityiset tokenit hyväksytään: %Y = vuosi, %H = tunti, %H = tunti, %M = minuutti, %S = toinen, %q = kehysluku, %v = kahdeksas numero, % = kahdeksas numero"
+
+#, fuzzy, python-format
+#~ msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
+#~ msgstr "Komennetaan, kun liiketapahtuma päättyy; useita komentoja voidaan erottaa siirtomaalla; älkää käyttäkö pistekoostumuksia komennoilla; seuraavat erityiset tunnusluvut hyväksytään: %Y = vuosi, %H = tunti, %M = minuutti, %S = toinen, %q = puitenumero."
