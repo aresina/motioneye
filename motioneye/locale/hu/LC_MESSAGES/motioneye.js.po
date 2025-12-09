@@ -6,13 +6,14 @@
 # PaulReeps <paul@paulreeps.de>, 2025.
 # Robert Brutoczki <robibrutoczki@googlemail.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 22:22+0000\n"
 "PO-Revision-Date: 2025-12-09 01:40+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/motioneye-project/motioneye-javascript/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -211,32 +212,39 @@ msgid "Certiĝu, ke ĉiuj agordaj opcioj estas validaj!"
 msgstr "Győződj meg róla, hogy minden opciót rendben találsz!"
 
 #: motioneye/static/js/main.js:3154
+#, fuzzy
 msgid "Sciiga Telegramo fiaskis:"
-msgstr ""
+msgstr "Egy márkás Telegram kudarcot vallott:"
 
 #: motioneye/static/js/main.js:3157
+#, fuzzy
 msgid "Sciiga Telegramo sukcesis!"
-msgstr ""
+msgstr "Egy márkás Telegram sikerült!"
 
 #: motioneye/static/js/main.js:3193
+#, fuzzy
 msgid "Aliro al retdividado fiaskis: "
-msgstr ""
+msgstr "A hálózati megosztáshoz való hozzáférés kudarcot vallott: "
 
 #: motioneye/static/js/main.js:3196
+#, fuzzy
 msgid "Aliro al retdividado sukcesis!"
-msgstr ""
+msgstr "A hálózati megosztáshoz való hozzáférés sikeres volt!"
 
 #: motioneye/static/js/main.js:3220
+#, fuzzy
 msgid "Ĉu vere forigi ĉi tiun dosieron?"
-msgstr ""
+msgstr "Tényleg törölte ezt a fájlt?"
 
 #: motioneye/static/js/main.js:3244
+#, fuzzy
 msgid "Ĉu vere forigi ĉiujn bildojn de \"%(group)s\"?"
-msgstr ""
+msgstr "Tényleg megszabadulsz a % összes képétől?"
 
 #: motioneye/static/js/main.js:3247
+#, fuzzy
 msgid "Ĉu vere forigi ĉiujn filmojn de \"%(group)s\"?"
-msgstr ""
+msgstr "Tényleg megszabadulsz az összes filmtől %?"
 
 #: motioneye/static/js/main.js:3252
 msgid "Ĉu vere forigi ĉiujn ne grupigitajn bildojn?"
@@ -247,33 +255,39 @@ msgid "Ĉu vere forigi ĉiujn ne grupigitajn filmojn?"
 msgstr ""
 
 #: motioneye/static/js/main.js:3369
+#, fuzzy
 msgid "aldonadi kameraon..."
-msgstr ""
+msgstr "kamera hozzáadása..."
 
 #: motioneye/static/js/main.js:3594 motioneye/static/js/main.js:3893
+#, fuzzy
 msgid "Uzantnomo"
-msgstr ""
+msgstr "Felhasználónév"
 
 #: motioneye/static/js/main.js:3599 motioneye/static/js/main.js:3898
 msgid "Pasvorto"
 msgstr "Jelszó"
 
 #: motioneye/static/js/main.js:3605
+#, fuzzy
 msgid "Memoru min"
-msgstr ""
+msgstr "Emlékezz rám, emlékezz rám"
 
 #: motioneye/static/js/main.js:3623 motioneye/static/js/main.js:3629
+#, fuzzy
 msgid "Ensaluti"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #: motioneye/static/js/main.js:3626 motioneye/static/js/ui.js:1023
 #: motioneye/static/js/ui.js:1030
+#, fuzzy
 msgid "Nuligi"
-msgstr ""
+msgstr "Nutify"
 
 #: motioneye/static/js/main.js:3668
+#, fuzzy
 msgid "Vi abortis la filmeton."
-msgstr ""
+msgstr "A filmet kaptad."
 
 #: motioneye/static/js/main.js:3671
 msgid "Reto eraro okazis."
@@ -288,20 +302,24 @@ msgid "Formato ne subtenata aŭ neatingebla/netaŭga por ludado."
 msgstr ""
 
 #: motioneye/static/js/main.js:3680
+#, fuzzy
 msgid "Nekonata eraro okazis."
-msgstr ""
+msgstr "Ismeretlen hiba történt."
 
 #: motioneye/static/js/main.js:3683
+#, fuzzy
 msgid "Eraro : "
-msgstr ""
+msgstr "Hiba: "
 
 #: motioneye/static/js/main.js:3688
+#, fuzzy
 msgid "antaŭa bildo"
-msgstr ""
+msgstr "előző kép"
 
 #: motioneye/static/js/main.js:3693
+#, fuzzy
 msgid "ludi"
-msgstr ""
+msgstr "játék játszani"
 
 #: motioneye/static/js/main.js:3696
 msgid "ludi * 5 kaj enĉenigi"
@@ -328,8 +346,9 @@ msgid "Kamerao tipo"
 msgstr ""
 
 #: motioneye/static/js/main.js:3879
+#, fuzzy
 msgid "Loka V4L2-kamerao"
-msgstr ""
+msgstr "Helyi V4L2 kamera"
 
 #: motioneye/static/js/main.js:3880
 msgid "Loka MMAL-kamerao"
@@ -340,44 +359,54 @@ msgid "Reta kamerao"
 msgstr ""
 
 #: motioneye/static/js/main.js:3882
+#, fuzzy
 msgid "Fora motionEye kamerao"
-msgstr ""
+msgstr "Erős mozgás Szem kamera"
 
 #: motioneye/static/js/main.js:3883
+#, fuzzy
 msgid "Simpla MJPEG-kamerao"
-msgstr ""
+msgstr "Egyszerű egyszerű MJPEG fényképezőgép"
 
 #: motioneye/static/js/main.js:3885
+#, fuzzy
 msgid "la speco de kamerao, kiun vi volas aldoni"
-msgstr ""
+msgstr "a fajta fényképezőgép, amit hozzá akar adni"
 
 #: motioneye/static/js/main.js:3888
+#, fuzzy
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: motioneye/static/js/main.js:3889
+#, fuzzy
 msgid "http://ekzemplo.com:8765/cams/..."
-msgstr ""
+msgstr "dalszöveg: example.com:8765/cams/..."
 
 #: motioneye/static/js/main.js:3890
+#, fuzzy
 msgid "la kameraa URL (ekz. http://ekzemplo.com:8080/cam/)"
-msgstr ""
+msgstr "a fényképezőgép URL (pl.:/example.com:80/cam/)"
 
 #: motioneye/static/js/main.js:3894
+#, fuzzy
 msgid "uzantnomo..."
-msgstr ""
+msgstr "a felhasználónév..."
 
 #: motioneye/static/js/main.js:3895
+#, fuzzy
 msgid "la uzantnomo por la URL, se bezonata (ekz. administranto)"
-msgstr ""
+msgstr "az URL felhasználónévje, ha szükséges (pl. adminisztrátor)"
 
 #: motioneye/static/js/main.js:3899
+#, fuzzy
 msgid "pasvorto..."
-msgstr ""
+msgstr "jelszó..."
 
 #: motioneye/static/js/main.js:3900
+#, fuzzy
 msgid "la pasvorto por la URL, se bezonata"
-msgstr ""
+msgstr "szükség esetén az URL jelszója"
 
 #: motioneye/static/js/main.js:3903
 #, fuzzy
@@ -385,20 +414,24 @@ msgid "Kamerao"
 msgstr "Kamera Azonosítója"
 
 #: motioneye/static/js/main.js:3905
+#, fuzzy
 msgid "la kameraon, kiun vi volas aldoni"
-msgstr ""
+msgstr "a kamera, amit hozzá akar adni"
 
 #: motioneye/static/js/main.js:3941
+#, fuzzy
 msgid "Fora motionEye kamerao estas kameraoj instalitaj malantaŭ alia servilo de MotionEye. Aldonante ilin ĉi tie permesos vin rigardi kaj administri ilin de malproksime."
-msgstr ""
+msgstr "Erős mozgás A szemkamera egy másik MotionEye szerver mögött telepített kamerák. Hozzáadni őket itt lehetővé teszi, hogy nézni és kezelni őket távolról."
 
 #: motioneye/static/js/main.js:3956
+#, fuzzy
 msgid "Retaj kameraoj (aŭ IP-kameraoj) estas aparatoj, kiuj denaske fluas RTSP/RTMP aŭ MJPEG-filmetojn aŭ simplajn JPEG-bildojn. Konsultu la manlibron de via aparato por ekscii la ĝustan URL RTSP, RTMP, MJPEG aŭ JPEG."
-msgstr ""
+msgstr "Online fényképezőgépek (vagy IP fényképezőgépek) olyan eszközök, amelyek RTSP / RTMP vagy MJPEG videókban vagy egyszerű JPEG képekben születnek. Konzultálja eszközének kézikönyvét a megfelelő URL RTSP, RTMP, MJPEG vagy JPEG megvalósításához."
 
 #: motioneye/static/js/main.js:3961
+#, fuzzy
 msgid "Lokaj MMAL-kameraoj estas aparatoj konektitaj rekte al via motionEye-sistemo. Ĉi tiuj estas kutime kart-specifaj kameraoj."
-msgstr ""
+msgstr "A helyi MMAL kamerák olyan eszközök, amelyek közvetlenül kapcsolódnak a mozgás Eye rendszeréhez. Ezek általában autóspecifikus kamerák."
 
 #: motioneye/static/js/main.js:3976
 msgid "Aldonante vian aparaton kiel simplan MJPEG-kameraon anstataŭ kiel retan kameraon plibonigos la fotografaĵon, sed neniu moviĝo-detekto, bilda kaptado aŭ registrado de filmoj estos disponebla por ĝi. La kamerao devas esti alirebla por via servilo kaj via retumilo. Ĉi tiu tipo de kamerao ne kongruas kun Internet Explorer."
@@ -417,8 +450,9 @@ msgid "Grupo"
 msgstr ""
 
 #: motioneye/static/js/main.js:4208
+#, fuzzy
 msgid "Inkluzivi foton prenitan ĉiun"
-msgstr ""
+msgstr "Tartalmaz egy fényképet, amelyet mindegyik"
 
 #: motioneye/static/js/main.js:4211
 msgid "sekundo"
@@ -429,40 +463,48 @@ msgid "5 sekundoj"
 msgstr ""
 
 #: motioneye/static/js/main.js:4213
+#, fuzzy
 msgid "10 sekundoj"
-msgstr ""
+msgstr "10 másodperc"
 
 #: motioneye/static/js/main.js:4214
+#, fuzzy
 msgid "30 sekundoj"
-msgstr ""
+msgstr "30 másodperc"
 
 #: motioneye/static/js/main.js:4215
+#, fuzzy
 msgid "minuto"
-msgstr ""
+msgstr "perc"
 
 #: motioneye/static/js/main.js:4216
+#, fuzzy
 msgid "5 minutoj"
-msgstr ""
+msgstr "5 perc"
 
 #: motioneye/static/js/main.js:4217
+#, fuzzy
 msgid "10 minutoj"
-msgstr ""
+msgstr "10 perc"
 
 #: motioneye/static/js/main.js:4218
+#, fuzzy
 msgid "30 minutoj"
-msgstr ""
+msgstr "30 perc"
 
 #: motioneye/static/js/main.js:4219
 msgid "horo"
 msgstr ""
 
 #: motioneye/static/js/main.js:4222
+#, fuzzy
 msgid "Elektu la intervalon de tempo inter du elektitaj bildoj."
-msgstr ""
+msgstr "Válassza ki a két kiválasztott kép közötti időt."
 
 #: motioneye/static/js/main.js:4225
+#, fuzzy
 msgid "Filmo framfrekvenco"
-msgstr ""
+msgstr "Filmkeret frekvenciája"
 
 #: motioneye/static/js/main.js:4227
 msgid "Elektu kiom rapide vi volas ke la akselita video estu."
@@ -481,16 +523,19 @@ msgid "Filmo kreanta en progreso..."
 msgstr ""
 
 #: motioneye/static/js/main.js:4513
+#, fuzzy
 msgid "Zipitaj"
-msgstr ""
+msgstr "Ziped"
 
 #: motioneye/static/js/main.js:4522
+#, fuzzy
 msgid "Akselita video"
-msgstr ""
+msgstr "Edited videó"
 
 #: motioneye/static/js/main.js:4533
+#, fuzzy
 msgid "Forigi ĉiujn"
-msgstr ""
+msgstr "Távolítsa el mindenkit"
 
 #: motioneye/static/js/main.js:4675
 msgid "Bildoj prenitaj de "
