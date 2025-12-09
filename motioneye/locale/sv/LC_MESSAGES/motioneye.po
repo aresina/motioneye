@@ -1426,40 +1426,49 @@ msgid "SMTP Pasvorto"
 msgstr "SMTP lösenord"
 
 #: motioneye/templates/main.html:1078
+#, fuzzy
 msgid "Enigu vian SMTPan pasvorton (por Gmail uzu vian Google-pasvorton aŭ app-specifan generitan pasvorton)."
-msgstr ""
+msgstr "Ange ditt SMTP-lösenord (för Gmail använd ditt Google-lösenord eller appspecifika genererade lösenord)."
 
 #: motioneye/templates/main.html:1081
+#, fuzzy
 msgid "De adreso"
-msgstr ""
+msgstr "Från adress"
 
 #: motioneye/templates/main.html:1082
+#, fuzzy
 msgid "retpoŝta adreso…"
-msgstr ""
+msgstr "e-postadress.."
 
 #: motioneye/templates/main.html:1083
+#, fuzzy
 msgid "Agordi kutimon De adreso, se via SMTP-servo postulas unu (la unua destina retpoŝta adreso estos uzata se lasita malplena)."
-msgstr ""
+msgstr "Agordi anpassad Om din SMTP-tjänst kräver en (den första destine-e-postadressen kommer att användas om den lämnas tom)."
 
 #: motioneye/templates/main.html:1086
+#, fuzzy
 msgid "Uzi TLS"
-msgstr ""
+msgstr "Använda TLS"
 
 #: motioneye/templates/main.html:1088
+#, fuzzy
 msgid "Ebligu tion, se via SMTP-servilo postulas TLS (Gmail bezonas ĉi tion por ebligi)."
-msgstr ""
+msgstr "Ansök att om din SMTP-server kräver TLS (Gmail behöver detta för att aktivera)."
 
 #: motioneye/templates/main.html:1091
+#, fuzzy
 msgid "Aldonitaj bildoj tempo-intervalo"
-msgstr ""
+msgstr "Lägga till bilder tidsintervall"
 
 #: motioneye/templates/main.html:1093
+#, fuzzy
 msgid "Difinas la tempo-serĉan intervalon por uzi dum kreado de retpoŝtaj ligiloj (pli altaj valoroj generas retpoŝtojn kun pli da bildoj koste de pliigita prokrasta sciigo); agordi al 0 por malebligi aldonitabildojn; vi ankaŭ devas rajtigi «Kaptitaj bildoj» por ke ĉi tio funkciu."
-msgstr ""
+msgstr "Definierar det tidssökande intervallet att använda när du skapar e-postlänkar (högre värden genererar e-post med fler bilderkostnader för ökad fördröjning av spaning); att kombinera till 0 för att förhindra tillsatta bilder; du måste också aktivera \"krypterade bilder\" för att detta ska fungera."
 
 #: motioneye/templates/main.html:1097
+#, fuzzy
 msgid "Testi retpoŝto"
-msgstr ""
+msgstr "Test e-post"
 
 #: motioneye/templates/main.html:1098
 #, fuzzy
@@ -1467,52 +1476,64 @@ msgid "Alklaku ĉi tiun butonon por testi retpoŝtajn sciigojn post kiam vi plen
 msgstr "Klicka på denna knappen för att testa anslutningen till din utdelade nätverksmapp efter att du har fyllt i behövd information"
 
 #: motioneye/templates/main.html:1104
+#, fuzzy
 msgid "Sendu Telegraman Sciigon"
-msgstr ""
+msgstr "Skicka telegram kunskap"
 
 #: motioneye/templates/main.html:1106
+#, fuzzy
 msgid "ebligu tion se vi volas ricevi telegraman mesaĝon kiam ajn moviĝa evento estas detektita"
-msgstr ""
+msgstr "ansök att om du vill få ett kabelmeddelande när en rörlig händelse upptäcks"
 
 #: motioneye/templates/main.html:1109
+#, fuzzy
 msgid "HTTP API ĵetono"
-msgstr ""
+msgstr "HTTP API lanseras"
 
 #: motioneye/templates/main.html:1110
+#, fuzzy
 msgid "Ekzemplo: 93847672:AACdSn843hsjJsh32bSmdN3sHsh2bsh0xRs_32dbcr1W"
-msgstr ""
+msgstr "Exempel: 93847672:AACdSn843hsjJsh32bSmdN3sHsh2bsh0xRs_32dbcr1W"
 
 #: motioneye/templates/main.html:1111
+#, fuzzy
 msgid "Kreante la telegram-bot-babilejon, vi ricevos API-ĵetonon, kiun vi devas enigi ĉi tie. Alklaku la API-butonon sube por paŝo-post-paŝa gvidilo pri kiel akiri vian API-ĵetonon. Ankaŭ nepre babili kun via lastatempe kreita «bot» post kiam via ŝlosilo estas generita, por certigi, ke vi ricevas mesaĝojn."
-msgstr ""
+msgstr "Genom att skapa kabel-bot-kabeln får du ett API-token som du måste ange här. Klicka på API-knappen nedan för en steg-för-steg guide om hur du får ditt API-token. Också nödvändigtvis chatta med din nyskapade \"bot\" efter din nyckel genereras, för att säkerställa att du får meddelanden."
 
 #: motioneye/templates/main.html:1114
+#, fuzzy
 msgid "Babileja ID"
-msgstr ""
+msgstr "Chatt ID"
 
 #: motioneye/templates/main.html:1115
+#, fuzzy
 msgid "Ekzemplo: 938272312"
-msgstr ""
+msgstr "Exempel: 938272312"
 
 #: motioneye/templates/main.html:1116
+#, fuzzy
 msgid "Kreu novan babilejon al id_chatbot (@id_chatbot) kaj elektu starti. La babilejo redonos la necesan numeron por ĉi tiu kampo."
-msgstr ""
+msgstr "Skapa en ny chatt till id_chatbot och välj att börja. Det nödvändiga numret för denna chatt."
 
 #: motioneye/templates/main.html:1119
+#, fuzzy
 msgid "Alkroĉitaj Bildoj Tempo"
-msgstr ""
+msgstr "Utvalda bilder tid"
 
 #: motioneye/templates/main.html:1121
+#, fuzzy
 msgid "difinas la bildan serĉtempan intervalon por krei telegramajn aldonojn (pli altaj valoroj generas pli da bildoj koste de pliigita sciiga prokrasto); agordi al 0 por malebligi bildajn aldonaĵojn; vi devas ankaŭ ebligi Senmovajn Bildojn por ke ĉi tio funkciu; vi volos ludi per ĉi tiu numero ĝis bildo estos sendita. Bona komenca numero estas 30 se vi agordas senmovajn bildojn al unu bildmoviĝo ekigita. Por norma movado ekigita, starigu ĉi tion multe pli malalte."
-msgstr ""
+msgstr "definierar bildsökningstiden för att skapa kabeltillskott (högre värden genererar fler bilder som kostar en ökad rekognosfördröjning); att kombinera 0 för att förhindra bildtillsatser; du måste också aktivera Demoving Pictures till det här arbetet; du vill spela med detta nummer tills bilden skickas. Bra initialnummer är 30 om du kombinerar stationära bilder till en bildrörelse utlöst. För en standardrörelse, sätt upp detta mycket lägre."
 
 #: motioneye/templates/main.html:1124
+#, fuzzy
 msgid "API-Informoj"
-msgstr ""
+msgstr "API Information"
 
 #: motioneye/templates/main.html:1125
+#, fuzzy
 msgid "Testo"
-msgstr ""
+msgstr "Test"
 
 #: motioneye/templates/main.html:1131 motioneye/templates/main.html:1176
 #, fuzzy
@@ -1520,12 +1541,14 @@ msgid "Alvoki URL"
 msgstr "Anropa URL"
 
 #: motioneye/templates/main.html:1133
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas, ke URL estu petata kiam ajn moviĝokazaĵo estas detektita."
-msgstr ""
+msgstr "Applicera detta om du vill att URL ska begäras när en rörelsehändelse upptäcks."
 
 #: motioneye/templates/main.html:1137
+#, fuzzy
 msgid "ekz. http://ekzemplo.com/sciigi/"
-msgstr ""
+msgstr "e.g. http: //exempel.com/ att differentiera/"
 
 #: motioneye/templates/main.html:1138
 #, fuzzy, python-format
@@ -1533,8 +1556,9 @@ msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝp
 msgstr "URL som ska begäras när rörelse upptäcks; följande särskilda sparvägar godtas: %Y = år, %m = månad, %d = dag, %H = timme, %M = minut, %S = andra, %q = ramnummer, %v = åttonde tal"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
+#, fuzzy
 msgid "La HTTP-metodo por uzi kiam vi petas URL (la donitaj URL-parametroj estos transdonitaj kiel indikite ĉi tie)."
-msgstr ""
+msgstr "HTTP-metoden att använda när du behagar URL (de givna URL-parametrarna kommer att överföras som anges här)."
 
 #: motioneye/templates/main.html:1156 motioneye/templates/main.html:1201
 #, fuzzy
@@ -1542,8 +1566,9 @@ msgid "Lanĉi komando"
 msgstr "Starta kommandot"
 
 #: motioneye/templates/main.html:1158
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam moviĝokazaĵo estas detektita."
-msgstr ""
+msgstr "Applicera detta om du vill starta ett kommando när en rörelse händelse upptäcks."
 
 #: motioneye/templates/main.html:1161 motioneye/templates/main.html:1206
 #, fuzzy
@@ -1561,8 +1586,9 @@ msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komando
 msgstr "Kommando att lanseras när rörelse upptäcks; många kommandon kan separeras av en kolonial; Använd inte punkthandlare genom kommandon; följande särskilda tokens accepteras: %Y = år, %m = månad, %H = timme, %H = timme, %M = minut, %S = andra, %q = ramnummer, %v = åttonde numret, % = åttonde nummer"
 
 #: motioneye/templates/main.html:1203
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento finiĝos."
-msgstr ""
+msgstr "Applicera detta om du vill starta ett kommando varje gång en flytt händelse kommer att sluta."
 
 #: motioneye/templates/main.html:1208
 #, fuzzy, python-format
@@ -1570,24 +1596,29 @@ msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komando
 msgstr "Kommando att lanseras när en rörelsehändelse slutar; flera kommandon kan separeras av en koloni; Använd inte punktkompositioner av kommandon; följande specialtoken accepteras: %Y = år, %m = månad, %H = timme, %M = minut, %S = andra, %q = Framework number."
 
 #: motioneye/templates/main.html:1218
+#, fuzzy
 msgid "Ebligu ĉi tion, se vi volas difini ĉiusemajnan horaron por detekto de moviĝo."
-msgstr ""
+msgstr "Applicera detta om du vill definiera ett veckovis schema för upptäckt av rörelse."
 
 #: motioneye/templates/main.html:1219
+#, fuzzy
 msgid "Laboranta horaro"
-msgstr ""
+msgstr "Arbetsschema"
 
 #: motioneye/templates/main.html:1224
+#, fuzzy
 msgid "Lundo"
-msgstr ""
+msgstr "Måndag måndag"
 
 #: motioneye/templates/main.html:1227
+#, fuzzy
 msgid "de"
-msgstr ""
+msgstr "från"
 
 #: motioneye/templates/main.html:1228
+#, fuzzy
 msgid "ĝis"
-msgstr ""
+msgstr "fram till"
 
 #: motioneye/templates/main.html:1230
 #, fuzzy
@@ -1595,8 +1626,9 @@ msgid "Fiksas la labortagan tempintervalon por lundoj."
 msgstr "Fast veckans tidsintervall för måndagar."
 
 #: motioneye/templates/main.html:1233
+#, fuzzy
 msgid "Mardo"
-msgstr ""
+msgstr "Tisdag tisdag"
 
 #: motioneye/templates/main.html:1239
 #, fuzzy
@@ -1604,8 +1636,9 @@ msgid "Fiksas la labortagan tempintervalon por mardoj."
 msgstr "Fast veckans tidsintervall för tisdagar."
 
 #: motioneye/templates/main.html:1242
+#, fuzzy
 msgid "Merkredo"
-msgstr ""
+msgstr "Onsdag"
 
 #: motioneye/templates/main.html:1248
 #, fuzzy
@@ -1613,8 +1646,9 @@ msgid "Fiksas la labortagan tempintervalon por merkredoj."
 msgstr "Fast veckans tidsintervall för onsdagar."
 
 #: motioneye/templates/main.html:1251
+#, fuzzy
 msgid "Ĵaŭdo"
-msgstr ""
+msgstr "Torsdag torsdag"
 
 #: motioneye/templates/main.html:1257
 #, fuzzy
