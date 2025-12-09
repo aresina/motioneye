@@ -1717,9 +1717,9 @@ msgid "ekz. http://ekzemplo.com/sciigi/"
 msgstr "f.eks. http: // f.eks"
 
 #: motioneye/templates/main.html:1138
-#, python-format
+#, fuzzy, python-format
 msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr ""
+msgstr "URL for at blive spurgt, når bevægelse er opdaget; følgende særlige opsparingsveje accepteres: %%Y = år, % %%m = måned, %%H = time, % %%M = minut, %%S = andet, %q = rammenummer, %%v = ottet tal, % % % % % %%v = ottet tal, % % % % % %"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
