@@ -4,13 +4,14 @@
 # Automatically generated, 2020.
 #
 # vrcher <matt.yalta72@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-09 16:07+0000\n"
-"PO-Revision-Date: 2025-11-11 23:51+0000\n"
-"Last-Translator: vrcher <matt.yalta72@gmail.com>\n"
+"PO-Revision-Date: 2025-12-09 23:09+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -657,9 +658,9 @@ msgid "ekz. http://example.com/notify/"
 msgstr "например, http://example.com/notify/"
 
 #: motioneye/templates/main.html:570
-#, python-format
+#, fuzzy, python-format
 msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
-msgstr ""
+msgstr "URL для передачи при обнаружении движения; допустимы следующие специальные сокращения: %%Y = год, %%m = месяц, %%d = день, %%H = час, %%M = минута, %%S = секунда, %%q = номер кадра, %%v = номер события, %%f = путь к файлу"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
 #: motioneye/templates/main.html:1186
@@ -687,9 +688,9 @@ msgid "ordono…"
 msgstr "Команда…"
 
 #: motioneye/templates/main.html:595
-#, python-format
+#, fuzzy, python-format
 msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
-msgstr ""
+msgstr "Команда, которая будет выполнена после создания мультимедийного файла. Несколько команд могут быть разделены точкой с запятой; не используйте точку с запятой в командах; принимаются следующие спецтокены: %%Y = год, %%m = месяц, %%d = день, %%H = час, %%M = минута, %%S = секунда, %%q = номер кадра, %%v = номер события, %%f = путь к файлу"
 
 #: motioneye/templates/main.html:605
 msgid "elektu kiajn informojn montras sur la kaptitaj kadroj"
@@ -725,9 +726,9 @@ msgid "propra teksto…"
 msgstr "Свой текст…"
 
 #: motioneye/templates/main.html:625
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
+msgstr "устанавливает пользовательский текст справа; принимаются следующие спецтокены: %%Y = год, %%m = месяц, %%d = день, %%H = час, %%M = минута, %%S = секунда, %%q = номер кадра, %%v = номер события, %%T = ЧЧ: ММ: СС, \\n = новая строка"
 
 #: motioneye/templates/main.html:628
 msgid "Dekstra Teksto"
@@ -738,9 +739,9 @@ msgid "Fiksas la tekston montritan sur la filmoj kaj bildoj, sur la malsupra dek
 msgstr "Устанавливает текст, отображаемый на видео и фотографиях, в правом нижнем углу"
 
 #: motioneye/templates/main.html:642
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
+msgstr "устанавливает пользовательский текст справа; принимаются следующие спецтокены: %%Y = год, %%m = месяц, %%d = день, %%H = час, %%M = минута, %%S = секунда, %%q = номер кадра, %%v = номер события, %%T = ЧЧ: ММ: СС, \\n = новая строка"
 
 #: motioneye/templates/main.html:645
 msgid "Teksta Skalo"
@@ -859,9 +860,9 @@ msgid "dosiernomo ŝablono…"
 msgstr "Шаблон имени файла…"
 
 #: motioneye/templates/main.html:749
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
-msgstr ""
+msgstr "устанавливает шаблон имени для файлов JPEG; принимаются следующие специальные токены: %%Y = год, %%m = месяц, %%d = день, %%H = час, %%M = минута, %%S = секунда, %%q = номер кадра, %%v = номер события, / = подкаталог."
 
 #: motioneye/templates/main.html:752
 msgid "Bildkvalito"
@@ -990,9 +991,9 @@ msgid "Filma Dosiernomo"
 msgstr "Имя файла"
 
 #: motioneye/templates/main.html:818
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
-msgstr ""
+msgstr "устанавливает шаблон имени для файлов JPEG; принимаются следующие специальные токены: %%Y = год, %%m = месяц, %%d = день, %%H = час, %%M = минута, %%S = секунда, %%q = номер кадра, %%v = номер события, / = подкаталог."
 
 #: motioneye/templates/main.html:821
 msgid "Rekta kopia filmeto"
