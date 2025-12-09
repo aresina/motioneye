@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-05 22:22+0000\n"
-"PO-Revision-Date: 2025-12-09 15:00+0000\n"
+"PO-Revision-Date: 2025-12-09 16:07+0000\n"
 "Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/da/>\n"
 "Language: da\n"
@@ -798,9 +798,9 @@ msgid "ekz. http://example.com/notify/"
 msgstr ""
 
 #: motioneye/templates/main.html:570
-#, python-format
+#, fuzzy, python-format
 msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
-msgstr ""
+msgstr "URL til overførsel, når bevægelse opdages; følgende særlige besparelser ruter accepteres:%–%Y = år,%-% m = måned,%%-%H = time,%-%M = minut,%S = andet,%q = rammenummer,%v = hændelsesnummer,%f = fil vej"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
 #: motioneye/templates/main.html:1186
@@ -866,9 +866,9 @@ msgid "propra teksto…"
 msgstr ""
 
 #: motioneye/templates/main.html:625
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
+msgstr "Definer brugerdefineret venstre tekst; følgende særlige tokenes accepteres:%-%Y = år,%-% m = måned,%%-%H = time,%–%-%M = minut,%%%%-%q = rammenummer,%-%v = hændelsesnummer, %T = HH:MM:SS, \\n = ny linje"
 
 #: motioneye/templates/main.html:628
 msgid "Dekstra Teksto"
@@ -879,9 +879,9 @@ msgid "Fiksas la tekston montritan sur la filmoj kaj bildoj, sur la malsupra dek
 msgstr ""
 
 #: motioneye/templates/main.html:642
-#, python-format
+#, fuzzy, python-format
 msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr ""
+msgstr "Definer brugerdefineret højre tekst; de følgende særlige tokener accepteres:%–%Y = år,%-% m = måned,%% = dag,%H = time,%–%M = minut,%%–%q = rammenummer,%v = hændelsesnummer,%T = HH:MM:SS, \\n = ny linje linje"
 
 #: motioneye/templates/main.html:645
 msgid "Teksta Skalo"
