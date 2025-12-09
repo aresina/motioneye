@@ -5,13 +5,14 @@
 # Marko Hinkkanen <hinkma@gmail.com>, 2023.
 # Sami Heino <sami.heino@iki.fi>, 2025.
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-05 22:22+0000\n"
 "PO-Revision-Date: 2025-12-09 15:00+0000\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -469,8 +470,9 @@ msgid "la uzantnomo kiu estu provizita kiam vi aliras la reton dosierujon (lasu 
 msgstr "käyttäjän nimi, joka tarjotaan, kun käytät verkkohakemistoa (tyhjä, jos käyttäjänimeä ei tarvita)"
 
 #: motioneye/templates/main.html:414
+#, fuzzy
 msgid "Pasvorton"
-msgstr ""
+msgstr "Salasana"
 
 #: motioneye/templates/main.html:416
 #, fuzzy
@@ -985,8 +987,9 @@ msgstr ""
 #: motioneye/templates/main.html:775 motioneye/templates/main.html:888
 #: motioneye/templates/main.html:963 motioneye/templates/main.html:1092
 #: motioneye/utils/dtconv.py:146 motioneye/utils/dtconv.py:149
+#, fuzzy
 msgid "sekundoj"
-msgstr ""
+msgstr "sekunti"
 
 #: motioneye/templates/main.html:776
 msgid "agordas la intervalon (en sekundoj) por la kaptiloj"
@@ -1632,8 +1635,9 @@ msgid "minuto"
 msgstr "minuuttia"
 
 #: motioneye/utils/dtconv.py:139
+#, fuzzy
 msgid "minutoj"
-msgstr ""
+msgstr "minuuttia"
 
 #: motioneye/utils/dtconv.py:143
 msgid "sekundo"
